@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text, useTheme } from 'react-native-paper';
 
@@ -7,7 +8,7 @@ interface CountryInfoCardProps {
   country: Country;
 }
 
-export function CountryInfoCard({ country }: CountryInfoCardProps) {
+export const CountryInfoCard = memo(function CountryInfoCard({ country }: CountryInfoCardProps) {
   const theme = useTheme();
   const details = [
     ['Capital', country.capital],
@@ -30,7 +31,7 @@ export function CountryInfoCard({ country }: CountryInfoCardProps) {
       </View>
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   card: { borderRadius: 20, gap: 8, marginTop: 14, padding: 16 },

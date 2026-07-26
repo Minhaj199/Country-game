@@ -64,6 +64,8 @@ function addAchievements(current: UnlockedAchievements, achievementIds: Achievem
   }, { ...current });
 }
 
+const storage = createJSONStorage(() => AsyncStorage);
+
 export const usePlayerStore = create<PlayerState>()(
   persist(
     (set, get) => ({
@@ -127,7 +129,7 @@ export const usePlayerStore = create<PlayerState>()(
     }),
     {
       name: 'country-quest-player',
-      storage: createJSONStorage(() => AsyncStorage),
+      storage,
       version: 1,
     },
   ),

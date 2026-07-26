@@ -5,12 +5,17 @@ import { StyleSheet, View } from 'react-native';
 import { Button, Chip, IconButton, ProgressBar, Text, useTheme } from 'react-native-paper';
 
 import { AnswerButton } from '@/components/AnswerButton';
+import { ConfettiOverlay } from '@/components/ConfettiOverlay';
 import { CountryInfoCard } from '@/components/CountryInfoCard';
+import { FlashOverlay } from '@/components/FlashOverlay';
 import { Screen } from '@/components/Screen';
+import { SlideView } from '@/components/SlideView';
 import { GAME_MODES } from '@/constants/game';
 import { HINT_COSTS, STARTING_LIVES } from '@/constants/player';
 import { QUIZ_MODE_RULES } from '@/constants/quiz';
 import { useQuizGame } from '@/hooks/useQuizGame';
+import { useSound } from '@/hooks/useSound';
+import { useVibration } from '@/hooks/useVibration';
 import { LocalCountryRepository } from '@/repository/LocalCountryRepository';
 import { countryService } from '@/services/CountryService';
 import { usePlayerStore } from '@/store/playerStore';
@@ -25,9 +30,23 @@ export function QuizScreen({ navigation, route }: Props) {
   const theme = useTheme();
   const { session, summary, answer, nextQuestion, restart, useHint } = useQuizGame(mode);
   const coins = usePlayerStore((s) => s.coins);
+  const { play } = useSound();
+  const { vibrate } = useVibration();
   const rules = QUIZ_MODE_RULES[mode];
   const question = session.currentQuestion;
   const answeredQuestions = session.correctAnswers + session.wrongAnswers;
+
+  function handleAnswer(countryId: number) {
+    answer(countryId);
+    const correct = question?.correctCountry.id === countryId;
+    play(correct ? 'correct' : 'wrong');
+    if (!correct) vibrate([0, 40, 30, 40]);
+  }
+
+  function handleHint(hint: Parameters<typeof useHint>[0]) {
+    play('click');
+    useHint(hint);
+  }
 
   if (session.status === 'unavailable') {
     return (
@@ -43,8 +62,10 @@ export function QuizScreen({ navigation, route }: Props) {
   }
 
   if (session.status === 'complete' && summary) {
+    const isPerfect = summary.perfectBonus > 0;
     return (
       <Screen scroll={false}>
+        <ConfettiOverlay visible={isPerfect} />
         <View style={styles.centered}>
           <View style={[styles.trophy, { backgroundColor: theme.colors.primaryContainer }]}>
             <MaterialCommunityIcons color={theme.colors.primary} name="trophy-outline" size={58} />
@@ -54,7 +75,7 @@ export function QuizScreen({ navigation, route }: Props) {
           <Text style={styles.centerText} variant="bodyLarge">
             {summary.correctAnswers} correct · {summary.wrongAnswers} incorrect
           </Text>
-          {summary.perfectBonus > 0 && (
+          {isPerfect && (
             <Text style={{ color: theme.colors.primary }} variant="titleMedium">Perfect game +{summary.perfectBonus}</Text>
           )}
           <View style={styles.summaryRow}>
@@ -85,13 +106,14 @@ export function QuizScreen({ navigation, route }: Props) {
       ? `Question ${session.questionNumber} of ${questionLimit}`
       : `${answeredQuestions} of ${totalCountries} discovered`;
 
-  const correctName = question.correctCountry.name;
-  const firstLetterHint = session.firstLetterRevealed
-    ? `Starts with "${correctName[0]}"`
+  const flashCorrect = session.status === 'answered' && session.answerResult
+    ? session.answerResult.correct
     : null;
 
   return (
     <Screen>
+      <FlashOverlay correct={flashCorrect} />
+
       <View style={styles.header}>
         <Button compact icon="chevron-left" mode="text" onPress={() => navigation.goBack()}>Exit</Button>
         <View style={styles.headerRight}>
@@ -117,7 +139,11 @@ export function QuizScreen({ navigation, route }: Props) {
           <Text style={{ color: theme.colors.onSurfaceVariant }} variant="labelLarge">{GAME_MODES[mode].title}</Text>
           <Text style={{ color: theme.colors.onSurfaceVariant }} variant="labelLarge">{progressLabel}</Text>
         </View>
-        <ProgressBar color={mode === 'timeAttack' ? '#F97316' : theme.colors.primary} progress={progress} style={styles.progress} />
+        <ProgressBar
+          color={mode === 'timeAttack' ? '#F97316' : theme.colors.primary}
+          progress={progress}
+          style={styles.progress}
+        />
       </View>
 
       {session.streak >= 2 && (
@@ -127,69 +153,78 @@ export function QuizScreen({ navigation, route }: Props) {
         </View>
       )}
 
-      <Text style={styles.questionLabel} variant="titleLarge">Which country is this?</Text>
-      {firstLetterHint && (
-        <Text style={[styles.hintLabel, { color: theme.colors.primary }]} variant="labelLarge">{firstLetterHint}</Text>
-      )}
+      <SlideView slideKey={question.id}>
+        <Text style={styles.questionLabel} variant="titleLarge">Which country is this?</Text>
+        {session.firstLetterRevealed && (
+          <Text style={[styles.hintLabel, { color: theme.colors.primary }]} variant="labelLarge">
+            Starts with "{question.correctCountry.name[0]}"
+          </Text>
+        )}
 
-      <View style={[styles.flagCard, { backgroundColor: theme.colors.surface }]}>
-        {flagSource ? <Image contentFit="contain" source={flagSource} style={styles.flag} transition={150} /> : null}
-      </View>
-
-      {session.status === 'playing' && (
-        <View style={styles.hintsRow}>
-          <IconButton
-            icon="approximately-equal"
-            mode="outlined"
-            size={20}
-            disabled={coins < HINT_COSTS.fiftyFifty}
-            onPress={() => useHint('fiftyFifty')}
-            accessibilityLabel={`50-50 hint (${HINT_COSTS.fiftyFifty} coins)`}
-          />
-          <IconButton
-            icon="skip-next"
-            mode="outlined"
-            size={20}
-            disabled={coins < HINT_COSTS.skip}
-            onPress={() => useHint('skip')}
-            accessibilityLabel={`Skip hint (${HINT_COSTS.skip} coins)`}
-          />
-          <IconButton
-            icon="alphabetical"
-            mode="outlined"
-            size={20}
-            disabled={coins < HINT_COSTS.firstLetter || session.firstLetterRevealed}
-            onPress={() => useHint('firstLetter')}
-            accessibilityLabel={`First letter hint (${HINT_COSTS.firstLetter} coins)`}
-          />
-          <View style={styles.coinBadge}>
-            <MaterialCommunityIcons name="circle-multiple" color="#F59E0B" size={16} />
-            <Text variant="labelMedium">{coins}</Text>
-          </View>
+        <View style={[styles.flagCard, { backgroundColor: theme.colors.surface }]}>
+          {flagSource ? <Image contentFit="contain" source={flagSource} style={styles.flag} transition={150} /> : null}
         </View>
-      )}
 
-      <View style={styles.answers}>
-        {question.options.map((option) => {
-          const eliminated = session.eliminatedOptionIds.includes(option.id);
-          return (
-            <AnswerButton
-              country={option}
-              disabled={session.status !== 'playing' || eliminated}
-              eliminated={eliminated}
-              isCorrect={session.status === 'answered' && option.id === question.correctCountry.id}
-              isSelected={session.status === 'answered' && option.id === selectedCountryId && option.id !== question.correctCountry.id}
-              key={option.id}
-              onPress={() => answer(option.id)}
+        {session.status === 'playing' && (
+          <View style={styles.hintsRow}>
+            <IconButton
+              icon="approximately-equal"
+              mode="outlined"
+              size={20}
+              disabled={coins < HINT_COSTS.fiftyFifty}
+              onPress={() => handleHint('fiftyFifty')}
+              accessibilityLabel={`50-50 hint (${HINT_COSTS.fiftyFifty} coins)`}
             />
-          );
-        })}
-      </View>
+            <IconButton
+              icon="skip-next"
+              mode="outlined"
+              size={20}
+              disabled={coins < HINT_COSTS.skip}
+              onPress={() => handleHint('skip')}
+              accessibilityLabel={`Skip hint (${HINT_COSTS.skip} coins)`}
+            />
+            <IconButton
+              icon="alphabetical"
+              mode="outlined"
+              size={20}
+              disabled={coins < HINT_COSTS.firstLetter || session.firstLetterRevealed}
+              onPress={() => handleHint('firstLetter')}
+              accessibilityLabel={`First letter hint (${HINT_COSTS.firstLetter} coins)`}
+            />
+            <View style={styles.coinBadge}>
+              <MaterialCommunityIcons name="circle-multiple" color="#F59E0B" size={16} />
+              <Text variant="labelMedium">{coins}</Text>
+            </View>
+          </View>
+        )}
+
+        <View style={styles.answers}>
+          {question.options.map((option) => {
+            const eliminated = session.eliminatedOptionIds.includes(option.id);
+            return (
+              <AnswerButton
+                country={option}
+                disabled={session.status !== 'playing' || eliminated}
+                eliminated={eliminated}
+                isCorrect={session.status === 'answered' && option.id === question.correctCountry.id}
+                isSelected={session.status === 'answered' && option.id === selectedCountryId && option.id !== question.correctCountry.id}
+                key={option.id}
+                onPress={() => handleAnswer(option.id)}
+              />
+            );
+          })}
+        </View>
+      </SlideView>
 
       {session.status === 'answered' && session.answerResult && (
         <>
-          <Text style={[styles.feedback, { color: session.answerResult.correct ? '#15803D' : '#B91C1C' }]} variant="titleMedium">
-            {session.answerResult.correct ? `Correct! +${session.answerResult.pointsAwarded}` : `That was ${question.correctCountry.name}.`}
+          <Text
+            style={[styles.feedback, { color: session.answerResult.correct ? '#15803D' : '#B91C1C' }]}
+            variant="titleMedium"
+          >
+            {session.answerResult.correct
+              ? `Correct! +${session.answerResult.pointsAwarded}`
+              : `That was ${question.correctCountry.name}.`}
           </Text>
           {!session.answerResult.correct && session.lives > 0 && (
             <Text style={{ color: '#EF4444', textAlign: 'center' }} variant="labelLarge">
@@ -198,7 +233,9 @@ export function QuizScreen({ navigation, route }: Props) {
           )}
           <CountryInfoCard country={question.correctCountry} />
           <Button mode="contained" onPress={nextQuestion} style={styles.nextButton}>
-            {(mode === 'endless' && !session.answerResult.correct) || session.lives <= 0 ? 'See results' : 'Next question'}
+            {(mode === 'endless' && !session.answerResult.correct) || session.lives <= 0
+              ? 'See results'
+              : 'Next question'}
           </Button>
         </>
       )}
