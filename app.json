@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Country Quest",
+    "slug": "country-quest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F9FC"
+    },
+    "android": {
+      "package": "com.countryquest.game",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F9FC"
+      }
+    },
+    "plugins": []
+  }
+}
