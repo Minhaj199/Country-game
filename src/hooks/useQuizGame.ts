@@ -7,8 +7,10 @@ import {
   QUIZ_MODE_RULES,
   SCORE_PER_CORRECT_ANSWER,
 } from '@/constants/quiz';
+import { HINT_COSTS, STARTING_LIVES } from '@/constants/player';
 import { countryService } from '@/services/CountryService';
-import type { QuizSession, QuizSummary } from '@/types/quiz';
+import { usePlayerStore } from '@/store/playerStore';
+import type { HintType, QuizSession, QuizSummary } from '@/types/quiz';
 import type { QuizMode } from '@/types/navigation';
 import { createQuestion } from '@/utils/quizEngine';
 
@@ -19,27 +21,24 @@ function createSession(mode: QuizMode): QuizSession {
 
   if (!firstQuestion) {
     return {
-      mode,
-      status: 'unavailable',
-      usedCountryIds: [],
-      questionNumber: 0,
-      score: 0,
-      correctAnswers: 0,
-      wrongAnswers: 0,
+      mode, status: 'unavailable',
+      usedCountryIds: [], questionNumber: 0,
+      score: 0, correctAnswers: 0, wrongAnswers: 0,
+      lives: STARTING_LIVES, streak: 0,
       timeRemainingSeconds: timeLimitSeconds,
+      eliminatedOptionIds: [], firstLetterRevealed: false,
     };
   }
 
   return {
-    mode,
-    status: 'playing',
+    mode, status: 'playing',
     currentQuestion: firstQuestion,
     usedCountryIds: [firstQuestion.correctCountry.id],
     questionNumber: 1,
-    score: 0,
-    correctAnswers: 0,
-    wrongAnswers: 0,
+    score: 0, correctAnswers: 0, wrongAnswers: 0,
+    lives: STARTING_LIVES, streak: 0,
     timeRemainingSeconds: timeLimitSeconds,
+    eliminatedOptionIds: [], firstLetterRevealed: false,
   };
 }
 
@@ -47,7 +46,6 @@ function toSummary(session: QuizSession): QuizSummary {
   const answeredQuestions = session.correctAnswers + session.wrongAnswers;
   const isPerfect = answeredQuestions > 0 && session.wrongAnswers === 0;
   const perfectBonus = isPerfect ? PERFECT_GAME_BONUS : 0;
-
   return {
     score: session.score + perfectBonus,
     baseScore: session.score,
@@ -65,14 +63,36 @@ export function useQuizGame(mode: QuizMode) {
   const countries = useMemo(() => countryService.getAll(), []);
   const summary = useMemo(() => (session.status === 'complete' ? toSummary(session) : undefined), [session]);
 
+  const rewardCorrectAnswer = usePlayerStore((s) => s.rewardCorrectAnswer);
+  const recordGame = usePlayerStore((s) => s.recordGame);
+  const spendCoins = usePlayerStore((s) => s.spendCoins);
+  const gameRecorded = useRef(false);
+
+  // Record game once when complete
+  useEffect(() => {
+    if (session.status !== 'complete' || gameRecorded.current) return;
+    const answeredQuestions = session.correctAnswers + session.wrongAnswers;
+    if (answeredQuestions === 0) return;
+    gameRecorded.current = true;
+    recordGame({
+      score: toSummary(session).score,
+      correctAnswers: session.correctAnswers,
+      wrongAnswers: session.wrongAnswers,
+      totalResponseTimeMs: 0,
+      bestStreak: session.streak,
+      correctByContinent: {},
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [session.status]);
+
   const restart = useCallback(() => {
-    const newSession = createSession(mode);
     answerStartedAt.current = Date.now();
-    setSession(newSession);
+    gameRecorded.current = false;
+    setSession(createSession(mode));
   }, [mode]);
 
   const finish = useCallback(() => {
-    setSession((current) => current.status === 'complete' ? current : { ...current, status: 'complete' });
+    setSession((c) => c.status === 'complete' ? c : { ...c, status: 'complete' });
   }, []);
 
   const answer = useCallback((selectedCountryId: number) => {
@@ -83,6 +103,10 @@ export function useQuizGame(mode: QuizMode) {
       const correct = current.currentQuestion.correctCountry.id === selectedCountryId;
       const fastBonusAwarded = correct && responseTimeMs < FAST_ANSWER_THRESHOLD_MS;
       const pointsAwarded = correct ? SCORE_PER_CORRECT_ANSWER + (fastBonusAwarded ? FAST_ANSWER_BONUS : 0) : 0;
+      const newStreak = correct ? current.streak + 1 : 0;
+      const newLives = correct ? current.lives : current.lives - 1;
+
+      if (correct) rewardCorrectAnswer();
 
       return {
         ...current,
@@ -90,10 +114,12 @@ export function useQuizGame(mode: QuizMode) {
         score: current.score + pointsAwarded,
         correctAnswers: current.correctAnswers + Number(correct),
         wrongAnswers: current.wrongAnswers + Number(!correct),
+        lives: newLives,
+        streak: newStreak,
         answerResult: { selectedCountryId, correct, pointsAwarded, fastBonusAwarded, responseTimeMs },
       };
     });
-  }, []);
+  }, [rewardCorrectAnswer]);
 
   const nextQuestion = useCallback(() => {
     setSession((current) => {
@@ -101,7 +127,9 @@ export function useQuizGame(mode: QuizMode) {
 
       const reachedQuestionLimit = Boolean(rules.questionLimit && current.questionNumber >= rules.questionLimit);
       const endlessMistake = mode === 'endless' && !current.answerResult?.correct;
-      if (reachedQuestionLimit || endlessMistake) return { ...current, status: 'complete' };
+      const noLives = current.lives <= 0;
+
+      if (reachedQuestionLimit || endlessMistake || noLives) return { ...current, status: 'complete' };
 
       const next = createQuestion(countries, current.usedCountryIds);
       if (!next) return { ...current, status: 'complete' };
@@ -114,9 +142,50 @@ export function useQuizGame(mode: QuizMode) {
         usedCountryIds: [...current.usedCountryIds, next.correctCountry.id],
         questionNumber: current.questionNumber + 1,
         answerResult: undefined,
+        eliminatedOptionIds: [],
+        firstLetterRevealed: false,
       };
     });
   }, [countries, mode, rules.questionLimit]);
+
+  const useHint = useCallback((hint: HintType) => {
+    const cost = HINT_COSTS[hint];
+    if (!spendCoins(cost)) return false;
+
+    setSession((current) => {
+      if (current.status !== 'playing' || !current.currentQuestion) return current;
+
+      if (hint === 'fiftyFifty') {
+        const wrongOptions = current.currentQuestion.options
+          .filter((o) => o.id !== current.currentQuestion!.correctCountry.id)
+          .filter((o) => !current.eliminatedOptionIds.includes(o.id));
+        const toEliminate = wrongOptions.slice(0, 2).map((o) => o.id);
+        return { ...current, eliminatedOptionIds: [...current.eliminatedOptionIds, ...toEliminate] };
+      }
+
+      if (hint === 'firstLetter') {
+        return { ...current, firstLetterRevealed: true };
+      }
+
+      if (hint === 'skip') {
+        const next = createQuestion(countries, current.usedCountryIds);
+        if (!next) return current;
+        answerStartedAt.current = Date.now();
+        return {
+          ...current,
+          currentQuestion: next,
+          usedCountryIds: [...current.usedCountryIds, next.correctCountry.id],
+          questionNumber: current.questionNumber + 1,
+          eliminatedOptionIds: [],
+          firstLetterRevealed: false,
+        };
+      }
+
+      return current;
+    });
+
+    return true;
+  }, [countries, spendCoins]);
 
   useEffect(() => {
     if (mode !== 'timeAttack' || session.status === 'complete' || session.status === 'unavailable') return;
@@ -132,5 +201,5 @@ export function useQuizGame(mode: QuizMode) {
     return () => clearInterval(timer);
   }, [mode, session.status]);
 
-  return { session, summary, answer, nextQuestion, restart, finish };
+  return { session, summary, answer, nextQuestion, restart, finish, useHint };
 }

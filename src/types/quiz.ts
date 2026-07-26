@@ -17,6 +17,8 @@ export interface AnswerResult {
   responseTimeMs: number;
 }
 
+export type HintType = 'fiftyFifty' | 'skip' | 'firstLetter';
+
 export interface QuizSession {
   mode: QuizMode;
   status: QuizStatus;
@@ -26,8 +28,12 @@ export interface QuizSession {
   score: number;
   correctAnswers: number;
   wrongAnswers: number;
+  lives: number;
+  streak: number;
   timeRemainingSeconds?: number;
   answerResult?: AnswerResult;
+  eliminatedOptionIds: number[];
+  firstLetterRevealed: boolean;
 }
 
 export interface QuizSummary {
