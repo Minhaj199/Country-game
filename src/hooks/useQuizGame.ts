@@ -68,6 +68,20 @@ export function useQuizGame(mode: QuizMode) {
   const spendCoins = usePlayerStore((s) => s.spendCoins);
   const gameRecorded = useRef(false);
 
+  // Reward player after a correct answer (outside the setSession updater to avoid setState-during-render)
+  const lastAnswerResult = session.answerResult;
+  const lastAnswerKey = lastAnswerResult
+    ? `${lastAnswerResult.selectedCountryId}-${session.questionNumber}`
+    : null;
+  const rewardedKey = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (!lastAnswerKey || rewardedKey.current === lastAnswerKey) return;
+    if (!lastAnswerResult?.correct) return;
+    rewardedKey.current = lastAnswerKey;
+    rewardCorrectAnswer();
+  }, [lastAnswerKey, lastAnswerResult?.correct, rewardCorrectAnswer]);
+
   // Record game once when complete
   useEffect(() => {
     if (session.status !== 'complete' || gameRecorded.current) return;
@@ -88,6 +102,7 @@ export function useQuizGame(mode: QuizMode) {
   const restart = useCallback(() => {
     answerStartedAt.current = Date.now();
     gameRecorded.current = false;
+    rewardedKey.current = null;
     setSession(createSession(mode));
   }, [mode]);
 
@@ -105,8 +120,6 @@ export function useQuizGame(mode: QuizMode) {
       const pointsAwarded = correct ? SCORE_PER_CORRECT_ANSWER + (fastBonusAwarded ? FAST_ANSWER_BONUS : 0) : 0;
       const newStreak = correct ? current.streak + 1 : 0;
       const newLives = correct ? current.lives : current.lives - 1;
-
-      if (correct) rewardCorrectAnswer();
 
       return {
         ...current,

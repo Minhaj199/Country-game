@@ -1,5 +1,6 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
+import { LinearGradient } from 'expo-linear-gradient';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { StyleSheet, View } from 'react-native';
 import { Button, Chip, IconButton, ProgressBar, Text, useTheme } from 'react-native-paper';
@@ -161,7 +162,13 @@ export function QuizScreen({ navigation, route }: Props) {
           </Text>
         )}
 
-        <View style={[styles.flagCard, { backgroundColor: theme.colors.surface }]}>
+        <View style={styles.flagCard}>
+          <LinearGradient
+            colors={['#1E293B', '#0F172A', '#1E293B']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={StyleSheet.absoluteFill}
+          />
           {flagSource ? <Image contentFit="contain" source={flagSource} style={styles.flag} transition={150} /> : null}
         </View>
 
@@ -249,8 +256,8 @@ const styles = StyleSheet.create({
   centered: { alignItems: 'center', flex: 1, gap: 13, justifyContent: 'center' },
   coinBadge: { alignItems: 'center', flexDirection: 'row', gap: 3, marginLeft: 4 },
   feedback: { marginTop: 7, textAlign: 'center' },
-  flag: { height: '100%', width: '100%' },
-  flagCard: { alignItems: 'center', borderRadius: 28, elevation: 2, height: 180, justifyContent: 'center', marginBottom: 12, overflow: 'hidden', padding: 24 },
+  flag: { height: '100%', width: '100%', zIndex: 1 },
+  flagCard: { borderRadius: 28, borderWidth: 1, borderColor: '#0F172A', elevation: 3, height: 180, marginBottom: 12, overflow: 'hidden', padding: 24, alignItems: 'center', justifyContent: 'center' },
   footerActions: { flexDirection: 'row', gap: 12, justifyContent: 'space-between' },
   header: { alignItems: 'center', flexDirection: 'row', justifyContent: 'space-between', marginBottom: 17, marginLeft: -12 },
   headerRight: { alignItems: 'center', flexDirection: 'row', gap: 12 },

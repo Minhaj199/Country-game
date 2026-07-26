@@ -1,13 +1,10 @@
-import { Audio } from 'expo-av';
+import { useAudioPlayer } from 'expo-audio';
 import { useCallback } from 'react';
 
 import { useSettingsStore } from '@/store/settingsStore';
 
 type SoundType = 'correct' | 'wrong' | 'click';
 
-// Frequencies (Hz) for synthesised tones via a short oscillator-style approach.
-// expo-av doesn't support Web Audio API, so we use bundled asset URIs.
-// We generate tones at runtime using a tiny PCM WAV encoded as base64.
 function makeToneWav(frequency: number, durationMs: number, volume = 0.6): string {
   const sampleRate = 22050;
   const numSamples = Math.floor((sampleRate * durationMs) / 1000);
@@ -54,20 +51,21 @@ const TONES: Record<SoundType, { frequency: number; duration: number }> = {
 export function useSound() {
   const soundEnabled = useSettingsStore((s) => s.soundEnabled);
 
-  const play = useCallback(async (type: SoundType) => {
+  // expo-audio requires a static source at hook call time; we play dynamic
+  // URIs by replacing the source before each play.
+  const player = useAudioPlayer(null);
+
+  const play = useCallback((type: SoundType) => {
     if (!soundEnabled) return;
     try {
       const { frequency, duration } = TONES[type];
       const uri = makeToneWav(frequency, duration);
-      const { sound } = await Audio.Sound.createAsync({ uri });
-      await sound.playAsync();
-      sound.setOnPlaybackStatusUpdate((status) => {
-        if (status.isLoaded && status.didJustFinish) sound.unloadAsync();
-      });
+      player.replace({ uri });
+      player.play();
     } catch {
-      // Sound is non-critical — silently ignore errors
+      // Sound is non-critical
     }
-  }, [soundEnabled]);
+  }, [soundEnabled, player]);
 
   return { play };
 }
