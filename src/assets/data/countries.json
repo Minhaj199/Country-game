@@ -1,0 +1,4670 @@
+[
+  {
+    "name": "Afghanistan",
+    "officialName": "Islamic Republic of Afghanistan",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "capital": "Kabul",
+    "continent": "Asia",
+    "population": 43844000,
+    "languages": [
+      "Dari",
+      "Pashto",
+      "Turkmen"
+    ],
+    "currency": "Afghan afghani",
+    "difficulty": "medium",
+    "fact": "Kabul is the capital of Afghanistan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/af.png",
+    "id": 1,
+    "flag": "af.png"
+  },
+  {
+    "name": "Åland Islands",
+    "officialName": "Åland Islands",
+    "iso2": "AX",
+    "iso3": "ALA",
+    "capital": "Mariehamn",
+    "continent": "Europe",
+    "population": 30654,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Mariehamn is the capital of Åland Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ax.png",
+    "id": 2,
+    "flag": "ax.png"
+  },
+  {
+    "name": "Albania",
+    "officialName": "Republic of Albania",
+    "iso2": "AL",
+    "iso3": "ALB",
+    "capital": "Tirana",
+    "continent": "Europe",
+    "population": 2335930,
+    "languages": [
+      "Albanian"
+    ],
+    "currency": "Albanian lek",
+    "difficulty": "hard",
+    "fact": "Tirana is the capital of Albania.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/al.png",
+    "id": 3,
+    "flag": "al.png"
+  },
+  {
+    "name": "Algeria",
+    "officialName": "People's Democratic Republic of Algeria",
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 47400000,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Algerian dinar",
+    "difficulty": "medium",
+    "fact": "Algiers is the capital of Algeria.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/dz.png",
+    "id": 4,
+    "flag": "dz.png"
+  },
+  {
+    "name": "American Samoa",
+    "officialName": "American Samoa",
+    "iso2": "AS",
+    "iso3": "ASM",
+    "capital": "Pago Pago",
+    "continent": "Oceania",
+    "population": 43268,
+    "languages": [
+      "English",
+      "Samoan"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Pago Pago is the capital of American Samoa.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/as.png",
+    "id": 5,
+    "flag": "as.png"
+  },
+  {
+    "name": "Andorra",
+    "officialName": "Principality of Andorra",
+    "iso2": "AD",
+    "iso3": "AND",
+    "capital": "Andorra la Vella",
+    "continent": "Europe",
+    "population": 89484,
+    "languages": [
+      "Catalan"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Andorra la Vella is the capital of Andorra.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ad.png",
+    "id": 6,
+    "flag": "ad.png"
+  },
+  {
+    "name": "Angola",
+    "officialName": "Republic of Angola",
+    "iso2": "AO",
+    "iso3": "AGO",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "population": 38778554,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Angolan kwanza",
+    "difficulty": "medium",
+    "fact": "Luanda is the capital of Angola.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ao.png",
+    "id": 7,
+    "flag": "ao.png"
+  },
+  {
+    "name": "Anguilla",
+    "officialName": "Anguilla",
+    "iso2": "AI",
+    "iso3": "AIA",
+    "capital": "The Valley",
+    "continent": "Americas",
+    "population": 16010,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "The Valley is the capital of Anguilla.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ai.png",
+    "id": 8,
+    "flag": "ai.png"
+  },
+  {
+    "name": "Antarctica",
+    "officialName": "Antarctica",
+    "iso2": "AQ",
+    "iso3": "ATA",
+    "capital": "Not available",
+    "continent": "Antarctic",
+    "population": 1300,
+    "languages": [
+      "Not available"
+    ],
+    "currency": "Not available",
+    "difficulty": "hard",
+    "fact": "Antarctica is in Antarctic.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/aq.png",
+    "id": 9,
+    "flag": "aq.png"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "officialName": "Antigua and Barbuda",
+    "iso2": "AG",
+    "iso3": "ATG",
+    "capital": "Saint John's",
+    "continent": "Americas",
+    "population": 106365,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "Saint John's is the capital of Antigua and Barbuda.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ag.png",
+    "id": 10,
+    "flag": "ag.png"
+  },
+  {
+    "name": "Argentina",
+    "officialName": "Argentine Republic",
+    "iso2": "AR",
+    "iso3": "ARG",
+    "capital": "Buenos Aires",
+    "continent": "Americas",
+    "population": 46387098,
+    "languages": [
+      "Guarani",
+      "Spanish"
+    ],
+    "currency": "Argentine peso",
+    "difficulty": "medium",
+    "fact": "Buenos Aires is the capital of Argentina.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ar.png",
+    "id": 11,
+    "flag": "ar.png"
+  },
+  {
+    "name": "Armenia",
+    "officialName": "Republic of Armenia",
+    "iso2": "AM",
+    "iso3": "ARM",
+    "capital": "Yerevan",
+    "continent": "Asia",
+    "population": 3096900,
+    "languages": [
+      "Armenian"
+    ],
+    "currency": "Armenian dram",
+    "difficulty": "hard",
+    "fact": "Yerevan is the capital of Armenia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/am.png",
+    "id": 12,
+    "flag": "am.png"
+  },
+  {
+    "name": "Aruba",
+    "officialName": "Aruba",
+    "iso2": "AW",
+    "iso3": "ABW",
+    "capital": "Oranjestad",
+    "continent": "Americas",
+    "population": 110625,
+    "languages": [
+      "Dutch",
+      "Papiamento"
+    ],
+    "currency": "Aruban florin",
+    "difficulty": "hard",
+    "fact": "Oranjestad is the capital of Aruba.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/aw.png",
+    "id": 13,
+    "flag": "aw.png"
+  },
+  {
+    "name": "Australia",
+    "officialName": "Commonwealth of Australia",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 27801023,
+    "languages": [
+      "English"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "medium",
+    "fact": "Canberra is the capital of Australia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/au.png",
+    "id": 14,
+    "flag": "au.png"
+  },
+  {
+    "name": "Austria",
+    "officialName": "Republic of Austria",
+    "iso2": "AT",
+    "iso3": "AUT",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 9220882,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Vienna is the capital of Austria.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/at.png",
+    "id": 15,
+    "flag": "at.png"
+  },
+  {
+    "name": "Azerbaijan",
+    "officialName": "Republic of Azerbaijan",
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 10266627,
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": "Azerbaijani manat",
+    "difficulty": "medium",
+    "fact": "Baku is the capital of Azerbaijan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/az.png",
+    "id": 16,
+    "flag": "az.png"
+  },
+  {
+    "name": "Bahamas",
+    "officialName": "Commonwealth of the Bahamas",
+    "iso2": "BS",
+    "iso3": "BHS",
+    "capital": "Nassau",
+    "continent": "Americas",
+    "population": 398165,
+    "languages": [
+      "English"
+    ],
+    "currency": "Bahamian dollar",
+    "difficulty": "hard",
+    "fact": "Nassau is the capital of Bahamas.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bs.png",
+    "id": 17,
+    "flag": "bs.png"
+  },
+  {
+    "name": "Bahrain",
+    "officialName": "Kingdom of Bahrain",
+    "iso2": "BH",
+    "iso3": "BHR",
+    "capital": "Manama",
+    "continent": "Asia",
+    "population": 1603260,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Bahraini dinar",
+    "difficulty": "hard",
+    "fact": "Manama is the capital of Bahrain.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bh.png",
+    "id": 18,
+    "flag": "bh.png"
+  },
+  {
+    "name": "Bangladesh",
+    "officialName": "People's Republic of Bangladesh",
+    "iso2": "BD",
+    "iso3": "BGD",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 169828911,
+    "languages": [
+      "Bengali"
+    ],
+    "currency": "Bangladeshi taka",
+    "difficulty": "easy",
+    "fact": "Dhaka is the capital of Bangladesh.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bd.png",
+    "id": 19,
+    "flag": "bd.png"
+  },
+  {
+    "name": "Barbados",
+    "officialName": "Barbados",
+    "iso2": "BB",
+    "iso3": "BRB",
+    "capital": "Bridgetown",
+    "continent": "Americas",
+    "population": 261692,
+    "languages": [
+      "English"
+    ],
+    "currency": "Barbadian dollar",
+    "difficulty": "hard",
+    "fact": "Bridgetown is the capital of Barbados.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bb.png",
+    "id": 20,
+    "flag": "bb.png"
+  },
+  {
+    "name": "Belarus",
+    "officialName": "Republic of Belarus",
+    "iso2": "BY",
+    "iso3": "BLR",
+    "capital": "Minsk",
+    "continent": "Europe",
+    "population": 9056080,
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ],
+    "currency": "Belarusian ruble",
+    "difficulty": "medium",
+    "fact": "Minsk is the capital of Belarus.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/by.png",
+    "id": 21,
+    "flag": "by.png"
+  },
+  {
+    "name": "Belgium",
+    "officialName": "Kingdom of Belgium",
+    "iso2": "BE",
+    "iso3": "BEL",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "population": 11936546,
+    "languages": [
+      "German",
+      "French",
+      "Dutch"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Brussels is the capital of Belgium.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/be.png",
+    "id": 22,
+    "flag": "be.png"
+  },
+  {
+    "name": "Belize",
+    "officialName": "Belize",
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "capital": "Belmopan",
+    "continent": "Americas",
+    "population": 417634,
+    "languages": [
+      "Belize Kriol",
+      "English",
+      "Spanish"
+    ],
+    "currency": "Belize dollar",
+    "difficulty": "hard",
+    "fact": "Belmopan is the capital of Belize.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bz.png",
+    "id": 23,
+    "flag": "bz.png"
+  },
+  {
+    "name": "Benin",
+    "officialName": "Republic of Benin",
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": 13224860,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Porto-Novo is the capital of Benin.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bj.png",
+    "id": 24,
+    "flag": "bj.png"
+  },
+  {
+    "name": "Bermuda",
+    "officialName": "Bermuda",
+    "iso2": "BM",
+    "iso3": "BMU",
+    "capital": "Hamilton",
+    "continent": "Americas",
+    "population": 64055,
+    "languages": [
+      "English"
+    ],
+    "currency": "Bermudian dollar",
+    "difficulty": "hard",
+    "fact": "Hamilton is the capital of Bermuda.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bm.png",
+    "id": 25,
+    "flag": "bm.png"
+  },
+  {
+    "name": "Bhutan",
+    "officialName": "Kingdom of Bhutan",
+    "iso2": "BT",
+    "iso3": "BTN",
+    "capital": "Thimphu",
+    "continent": "Asia",
+    "population": 784043,
+    "languages": [
+      "Dzongkha"
+    ],
+    "currency": "Bhutanese ngultrum",
+    "difficulty": "hard",
+    "fact": "Thimphu is the capital of Bhutan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bt.png",
+    "id": 26,
+    "flag": "bt.png"
+  },
+  {
+    "name": "Bolivia",
+    "officialName": "Plurinational State of Bolivia",
+    "iso2": "BO",
+    "iso3": "BOL",
+    "capital": "Sucre",
+    "continent": "Americas",
+    "population": 11365333,
+    "languages": [
+      "Aymara",
+      "Guarani",
+      "Quechua",
+      "Spanish"
+    ],
+    "currency": "Bolivian boliviano",
+    "difficulty": "medium",
+    "fact": "Sucre is the capital of Bolivia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bo.png",
+    "id": 27,
+    "flag": "bo.png"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "officialName": "Bosnia and Herzegovina",
+    "iso2": "BA",
+    "iso3": "BIH",
+    "capital": "Sarajevo",
+    "continent": "Europe",
+    "population": 3412000,
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ],
+    "currency": "Bosnia and Herzegovina convertible mark",
+    "difficulty": "hard",
+    "fact": "Sarajevo is the capital of Bosnia and Herzegovina.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ba.png",
+    "id": 28,
+    "flag": "ba.png"
+  },
+  {
+    "name": "Botswana",
+    "officialName": "Republic of Botswana",
+    "iso2": "BW",
+    "iso3": "BWA",
+    "capital": "Gaborone",
+    "continent": "Africa",
+    "population": 2359609,
+    "languages": [
+      "English",
+      "Tswana"
+    ],
+    "currency": "Botswana pula",
+    "difficulty": "hard",
+    "fact": "Gaborone is the capital of Botswana.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bw.png",
+    "id": 29,
+    "flag": "bw.png"
+  },
+  {
+    "name": "Bouvet Island",
+    "officialName": "Bouvet Island",
+    "iso2": "BV",
+    "iso3": "BVT",
+    "capital": "Not available",
+    "continent": "Antarctic",
+    "population": 0,
+    "languages": [
+      "Norwegian"
+    ],
+    "currency": "Not available",
+    "difficulty": "hard",
+    "fact": "Bouvet Island is in Antarctic.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bv.png",
+    "id": 30,
+    "flag": "bv.png"
+  },
+  {
+    "name": "Brazil",
+    "officialName": "Federative Republic of Brazil",
+    "iso2": "BR",
+    "iso3": "BRA",
+    "capital": "Brasília",
+    "continent": "Americas",
+    "population": 213421037,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Brazilian real",
+    "difficulty": "easy",
+    "fact": "Brasília is the capital of Brazil.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/br.png",
+    "id": 31,
+    "flag": "br.png"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "officialName": "British Indian Ocean Territory",
+    "iso2": "IO",
+    "iso3": "IOT",
+    "capital": "Diego Garcia",
+    "continent": "Africa",
+    "population": 2000,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Diego Garcia is the capital of British Indian Ocean Territory.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/io.png",
+    "id": 32,
+    "flag": "io.png"
+  },
+  {
+    "name": "British Virgin Islands",
+    "officialName": "Virgin Islands",
+    "iso2": "VG",
+    "iso3": "VGB",
+    "capital": "Road Town",
+    "continent": "Americas",
+    "population": 38322,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Road Town is the capital of British Virgin Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/vg.png",
+    "id": 33,
+    "flag": "vg.png"
+  },
+  {
+    "name": "Brunei",
+    "officialName": "Nation of Brunei, the Abode of Peace",
+    "iso2": "BN",
+    "iso3": "BRN",
+    "capital": "Bandar Seri Begawan",
+    "continent": "Asia",
+    "population": 458600,
+    "languages": [
+      "Malay"
+    ],
+    "currency": "Brunei dollar",
+    "difficulty": "hard",
+    "fact": "Bandar Seri Begawan is the capital of Brunei.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bn.png",
+    "id": 34,
+    "flag": "bn.png"
+  },
+  {
+    "name": "Bulgaria",
+    "officialName": "Republic of Bulgaria",
+    "iso2": "BG",
+    "iso3": "BGR",
+    "capital": "Sofia",
+    "continent": "Europe",
+    "population": 6423207,
+    "languages": [
+      "Bulgarian"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Sofia is the capital of Bulgaria.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bg.png",
+    "id": 35,
+    "flag": "bg.png"
+  },
+  {
+    "name": "Burkina Faso",
+    "officialName": "Burkina Faso",
+    "iso2": "BF",
+    "iso3": "BFA",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "population": 22489126,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Ouagadougou is the capital of Burkina Faso.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bf.png",
+    "id": 36,
+    "flag": "bf.png"
+  },
+  {
+    "name": "Burundi",
+    "officialName": "Republic of Burundi",
+    "iso2": "BI",
+    "iso3": "BDI",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "population": 12332788,
+    "languages": [
+      "French",
+      "Rundi"
+    ],
+    "currency": "Burundian franc",
+    "difficulty": "medium",
+    "fact": "Gitega is the capital of Burundi.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bi.png",
+    "id": 37,
+    "flag": "bi.png"
+  },
+  {
+    "name": "Cabo Verde",
+    "officialName": "Republic of Cabo Verde",
+    "iso2": "CV",
+    "iso3": "CPV",
+    "capital": "Praia",
+    "continent": "Africa",
+    "population": 491233,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Cape Verdean escudo",
+    "difficulty": "hard",
+    "fact": "Praia is the capital of Cabo Verde.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cv.png",
+    "id": 38,
+    "flag": "cv.png"
+  },
+  {
+    "name": "Cambodia",
+    "officialName": "Kingdom of Cambodia",
+    "iso2": "KH",
+    "iso3": "KHM",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "population": 17577760,
+    "languages": [
+      "Khmer"
+    ],
+    "currency": "Cambodian riel",
+    "difficulty": "medium",
+    "fact": "Phnom Penh is the capital of Cambodia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kh.png",
+    "id": 39,
+    "flag": "kh.png"
+  },
+  {
+    "name": "Cameroon",
+    "officialName": "Republic of Cameroon",
+    "iso2": "CM",
+    "iso3": "CMR",
+    "capital": "Yaoundé",
+    "continent": "Africa",
+    "population": 29442327,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": "Central African CFA franc",
+    "difficulty": "medium",
+    "fact": "Yaoundé is the capital of Cameroon.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cm.png",
+    "id": 40,
+    "flag": "cm.png"
+  },
+  {
+    "name": "Canada",
+    "officialName": "Canada",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "capital": "Ottawa",
+    "continent": "Americas",
+    "population": 41417056,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": "Canadian dollar",
+    "difficulty": "medium",
+    "fact": "Ottawa is the capital of Canada.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ca.png",
+    "id": 41,
+    "flag": "ca.png"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "officialName": "Bonaire, Sint Eustatius and Saba",
+    "iso2": "BQ",
+    "iso3": "BES",
+    "capital": "Kralendijk",
+    "continent": "Americas",
+    "population": 31980,
+    "languages": [
+      "English",
+      "Dutch",
+      "Papiamento"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Kralendijk is the capital of Caribbean Netherlands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bq.png",
+    "id": 42,
+    "flag": "bq.png"
+  },
+  {
+    "name": "Cayman Islands",
+    "officialName": "Cayman Islands",
+    "iso2": "KY",
+    "iso3": "CYM",
+    "capital": "George Town",
+    "continent": "Americas",
+    "population": 90577,
+    "languages": [
+      "English"
+    ],
+    "currency": "Cayman Islands dollar",
+    "difficulty": "hard",
+    "fact": "George Town is the capital of Cayman Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ky.png",
+    "id": 43,
+    "flag": "ky.png"
+  },
+  {
+    "name": "Central African Republic",
+    "officialName": "Central African Republic",
+    "iso2": "CF",
+    "iso3": "CAF",
+    "capital": "Bangui",
+    "continent": "Africa",
+    "population": 5513282,
+    "languages": [
+      "French",
+      "Sango"
+    ],
+    "currency": "Central African CFA franc",
+    "difficulty": "medium",
+    "fact": "Bangui is the capital of Central African Republic.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cf.png",
+    "id": 44,
+    "flag": "cf.png"
+  },
+  {
+    "name": "Chad",
+    "officialName": "Republic of Chad",
+    "iso2": "TD",
+    "iso3": "TCD",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 20031602,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "currency": "Central African CFA franc",
+    "difficulty": "medium",
+    "fact": "N'Djamena is the capital of Chad.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/td.png",
+    "id": 45,
+    "flag": "td.png"
+  },
+  {
+    "name": "Chile",
+    "officialName": "Republic of Chile",
+    "iso2": "CL",
+    "iso3": "CHL",
+    "capital": "Santiago",
+    "continent": "Americas",
+    "population": 20206953,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Chilean peso",
+    "difficulty": "medium",
+    "fact": "Santiago is the capital of Chile.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cl.png",
+    "id": 46,
+    "flag": "cl.png"
+  },
+  {
+    "name": "China",
+    "officialName": "People's Republic of China",
+    "iso2": "CN",
+    "iso3": "CHN",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": 1404890000,
+    "languages": [
+      "Chinese"
+    ],
+    "currency": "Chinese yuan",
+    "difficulty": "easy",
+    "fact": "Beijing is the capital of China.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cn.png",
+    "id": 47,
+    "flag": "cn.png"
+  },
+  {
+    "name": "Christmas Island",
+    "officialName": "Territory of Christmas Island",
+    "iso2": "CX",
+    "iso3": "CXR",
+    "capital": "Flying Fish Cove",
+    "continent": "Oceania",
+    "population": 1692,
+    "languages": [
+      "English"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "hard",
+    "fact": "Flying Fish Cove is the capital of Christmas Island.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cx.png",
+    "id": 48,
+    "flag": "cx.png"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "officialName": "Territory of the Cocos (Keeling) Islands",
+    "iso2": "CC",
+    "iso3": "CCK",
+    "capital": "West Island",
+    "continent": "Oceania",
+    "population": 593,
+    "languages": [
+      "English"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "hard",
+    "fact": "West Island is the capital of Cocos (Keeling) Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cc.png",
+    "id": 49,
+    "flag": "cc.png"
+  },
+  {
+    "name": "Colombia",
+    "officialName": "Republic of Colombia",
+    "iso2": "CO",
+    "iso3": "COL",
+    "capital": "Bogotá",
+    "continent": "Americas",
+    "population": 53057212,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Colombian peso",
+    "difficulty": "easy",
+    "fact": "Bogotá is the capital of Colombia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/co.png",
+    "id": 50,
+    "flag": "co.png"
+  },
+  {
+    "name": "Comoros",
+    "officialName": "Union of the Comoros",
+    "iso2": "KM",
+    "iso3": "COM",
+    "capital": "Moroni",
+    "continent": "Africa",
+    "population": 944388,
+    "languages": [
+      "Arabic",
+      "French",
+      "Ngazidja Comorian"
+    ],
+    "currency": "Comorian franc",
+    "difficulty": "hard",
+    "fact": "Moroni is the capital of Comoros.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/km.png",
+    "id": 51,
+    "flag": "km.png"
+  },
+  {
+    "name": "Congo",
+    "officialName": "Republic of the Congo",
+    "iso2": "CG",
+    "iso3": "COG",
+    "capital": "Brazzaville",
+    "continent": "Africa",
+    "population": 6332961,
+    "languages": [
+      "French",
+      "Kongo",
+      "Lingala"
+    ],
+    "currency": "Central African CFA franc",
+    "difficulty": "medium",
+    "fact": "Brazzaville is the capital of Congo.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cg.png",
+    "id": 52,
+    "flag": "cg.png"
+  },
+  {
+    "name": "Cook Islands",
+    "officialName": "Cook Islands",
+    "iso2": "CK",
+    "iso3": "COK",
+    "capital": "Avarua",
+    "continent": "Oceania",
+    "population": 15040,
+    "languages": [
+      "English",
+      "Cook Islands Maori"
+    ],
+    "currency": "Cook Islands dollar",
+    "difficulty": "hard",
+    "fact": "Avarua is the capital of Cook Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ck.png",
+    "id": 53,
+    "flag": "ck.png"
+  },
+  {
+    "name": "Costa Rica",
+    "officialName": "Republic of Costa Rica",
+    "iso2": "CR",
+    "iso3": "CRI",
+    "capital": "San José",
+    "continent": "Americas",
+    "population": 5160700,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Costa Rican colón",
+    "difficulty": "medium",
+    "fact": "San José is the capital of Costa Rica.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cr.png",
+    "id": 54,
+    "flag": "cr.png"
+  },
+  {
+    "name": "Croatia",
+    "officialName": "Republic of Croatia",
+    "iso2": "HR",
+    "iso3": "HRV",
+    "capital": "Zagreb",
+    "continent": "Europe",
+    "population": 3866233,
+    "languages": [
+      "Croatian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Zagreb is the capital of Croatia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/hr.png",
+    "id": 55,
+    "flag": "hr.png"
+  },
+  {
+    "name": "Cuba",
+    "officialName": "Republic of Cuba",
+    "iso2": "CU",
+    "iso3": "CUB",
+    "capital": "Havana",
+    "continent": "Americas",
+    "population": 9748007,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Cuban convertible peso",
+    "difficulty": "medium",
+    "fact": "Havana is the capital of Cuba.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cu.png",
+    "id": 56,
+    "flag": "cu.png"
+  },
+  {
+    "name": "Curaçao",
+    "officialName": "Country of Curaçao",
+    "iso2": "CW",
+    "iso3": "CUW",
+    "capital": "Willemstad",
+    "continent": "Americas",
+    "population": 155826,
+    "languages": [
+      "English",
+      "Dutch",
+      "Papiamento"
+    ],
+    "currency": "Netherlands Antillean guilder",
+    "difficulty": "hard",
+    "fact": "Willemstad is the capital of Curaçao.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cw.png",
+    "id": 57,
+    "flag": "cw.png"
+  },
+  {
+    "name": "Cyprus",
+    "officialName": "Republic of Cyprus",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "capital": "Nicosia",
+    "continent": "Europe",
+    "population": 983000,
+    "languages": [
+      "Greek",
+      "Turkish"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Nicosia is the capital of Cyprus.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cy.png",
+    "id": 58,
+    "flag": "cy.png"
+  },
+  {
+    "name": "Czechia",
+    "officialName": "Czech Republic",
+    "iso2": "CZ",
+    "iso3": "CZE",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 10896003,
+    "languages": [
+      "Czech",
+      "Slovak"
+    ],
+    "currency": "Czech koruna",
+    "difficulty": "medium",
+    "fact": "Prague is the capital of Czechia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cz.png",
+    "id": 59,
+    "flag": "cz.png"
+  },
+  {
+    "name": "Denmark",
+    "officialName": "Kingdom of Denmark",
+    "iso2": "DK",
+    "iso3": "DNK",
+    "capital": "Copenhagen",
+    "continent": "Europe",
+    "population": 6031992,
+    "languages": [
+      "Danish"
+    ],
+    "currency": "Danish krone",
+    "difficulty": "medium",
+    "fact": "Copenhagen is the capital of Denmark.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/dk.png",
+    "id": 60,
+    "flag": "dk.png"
+  },
+  {
+    "name": "Djibouti",
+    "officialName": "Republic of Djibouti",
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "capital": "Djibouti",
+    "continent": "Africa",
+    "population": 1066809,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "currency": "Djiboutian franc",
+    "difficulty": "hard",
+    "fact": "Djibouti is the capital of Djibouti.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/dj.png",
+    "id": 61,
+    "flag": "dj.png"
+  },
+  {
+    "name": "Dominica",
+    "officialName": "Commonwealth of Dominica",
+    "iso2": "DM",
+    "iso3": "DMA",
+    "capital": "Roseau",
+    "continent": "Americas",
+    "population": 65514,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "Roseau is the capital of Dominica.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/dm.png",
+    "id": 62,
+    "flag": "dm.png"
+  },
+  {
+    "name": "Dominican Republic",
+    "officialName": "Dominican Republic",
+    "iso2": "DO",
+    "iso3": "DOM",
+    "capital": "Santo Domingo",
+    "continent": "Americas",
+    "population": 11532151,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Dominican peso",
+    "difficulty": "medium",
+    "fact": "Santo Domingo is the capital of Dominican Republic.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/do.png",
+    "id": 63,
+    "flag": "do.png"
+  },
+  {
+    "name": "DRC",
+    "officialName": "Democratic Republic of the Congo",
+    "iso2": "CD",
+    "iso3": "COD",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 124388160,
+    "languages": [
+      "French",
+      "Kongo",
+      "Lingala",
+      "Luba-Lulua",
+      "Swahili"
+    ],
+    "currency": "Congolese franc",
+    "difficulty": "easy",
+    "fact": "Kinshasa is the capital of DRC.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/cd.png",
+    "id": 64,
+    "flag": "cd.png"
+  },
+  {
+    "name": "Ecuador",
+    "officialName": "Republic of Ecuador",
+    "iso2": "EC",
+    "iso3": "ECU",
+    "capital": "Quito",
+    "continent": "Americas",
+    "population": 18103660,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "medium",
+    "fact": "Quito is the capital of Ecuador.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ec.png",
+    "id": 65,
+    "flag": "ec.png"
+  },
+  {
+    "name": "Egypt",
+    "officialName": "Arab Republic of Egypt",
+    "iso2": "EG",
+    "iso3": "EGY",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 108613296,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Egyptian pound",
+    "difficulty": "easy",
+    "fact": "Cairo is the capital of Egypt.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/eg.png",
+    "id": 66,
+    "flag": "eg.png"
+  },
+  {
+    "name": "El Salvador",
+    "officialName": "Republic of El Salvador",
+    "iso2": "SV",
+    "iso3": "SLV",
+    "capital": "San Salvador",
+    "continent": "Americas",
+    "population": 6029976,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "medium",
+    "fact": "San Salvador is the capital of El Salvador.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sv.png",
+    "id": 67,
+    "flag": "sv.png"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "officialName": "Republic of Equatorial Guinea",
+    "iso2": "GQ",
+    "iso3": "GNQ",
+    "capital": "Malabo",
+    "continent": "Africa",
+    "population": 1795834,
+    "languages": [
+      "French",
+      "Portuguese",
+      "Spanish"
+    ],
+    "currency": "Central African CFA franc",
+    "difficulty": "hard",
+    "fact": "Malabo is the capital of Equatorial Guinea.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gq.png",
+    "id": 68,
+    "flag": "gq.png"
+  },
+  {
+    "name": "Eritrea",
+    "officialName": "State of Eritrea",
+    "iso2": "ER",
+    "iso3": "ERI",
+    "capital": "Asmara",
+    "continent": "Africa",
+    "population": 3607000,
+    "languages": [
+      "Arabic",
+      "English",
+      "Tigrinya"
+    ],
+    "currency": "Eritrean nakfa",
+    "difficulty": "hard",
+    "fact": "Asmara is the capital of Eritrea.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/er.png",
+    "id": 69,
+    "flag": "er.png"
+  },
+  {
+    "name": "Estonia",
+    "officialName": "Republic of Estonia",
+    "iso2": "EE",
+    "iso3": "EST",
+    "capital": "Tallinn",
+    "continent": "Europe",
+    "population": 1360745,
+    "languages": [
+      "Estonian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Tallinn is the capital of Estonia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ee.png",
+    "id": 70,
+    "flag": "ee.png"
+  },
+  {
+    "name": "Eswatini",
+    "officialName": "Kingdom of Eswatini",
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "capital": "Mbabane",
+    "continent": "Africa",
+    "population": 1235549,
+    "languages": [
+      "English",
+      "Swazi"
+    ],
+    "currency": "Swazi lilangeni",
+    "difficulty": "hard",
+    "fact": "Mbabane is the capital of Eswatini.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sz.png",
+    "id": 71,
+    "flag": "sz.png"
+  },
+  {
+    "name": "Ethiopia",
+    "officialName": "Federal Democratic Republic of Ethiopia",
+    "iso2": "ET",
+    "iso3": "ETH",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 111652998,
+    "languages": [
+      "Amharic"
+    ],
+    "currency": "Ethiopian birr",
+    "difficulty": "easy",
+    "fact": "Addis Ababa is the capital of Ethiopia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/et.png",
+    "id": 72,
+    "flag": "et.png"
+  },
+  {
+    "name": "Falkland Islands",
+    "officialName": "Falkland Islands",
+    "iso2": "FK",
+    "iso3": "FLK",
+    "capital": "Stanley",
+    "continent": "Americas",
+    "population": 3662,
+    "languages": [
+      "English"
+    ],
+    "currency": "Falkland Islands pound",
+    "difficulty": "hard",
+    "fact": "Stanley is the capital of Falkland Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/fk.png",
+    "id": 73,
+    "flag": "fk.png"
+  },
+  {
+    "name": "Faroe Islands",
+    "officialName": "Faroe Islands",
+    "iso2": "FO",
+    "iso3": "FRO",
+    "capital": "Tórshavn",
+    "continent": "Europe",
+    "population": 56210,
+    "languages": [
+      "Danish",
+      "Faroese"
+    ],
+    "currency": "Danish krone",
+    "difficulty": "hard",
+    "fact": "Tórshavn is the capital of Faroe Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/fo.png",
+    "id": 74,
+    "flag": "fo.png"
+  },
+  {
+    "name": "Fiji",
+    "officialName": "Republic of Fiji",
+    "iso2": "FJ",
+    "iso3": "FJI",
+    "capital": "Suva",
+    "continent": "Oceania",
+    "population": 902623,
+    "languages": [
+      "English",
+      "Fijian",
+      "Fiji Hindi"
+    ],
+    "currency": "Fijian dollar",
+    "difficulty": "hard",
+    "fact": "Suva is the capital of Fiji.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/fj.png",
+    "id": 75,
+    "flag": "fj.png"
+  },
+  {
+    "name": "Finland",
+    "officialName": "Republic of Finland",
+    "iso2": "FI",
+    "iso3": "FIN",
+    "capital": "Helsinki",
+    "continent": "Europe",
+    "population": 5651171,
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Helsinki is the capital of Finland.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/fi.png",
+    "id": 76,
+    "flag": "fi.png"
+  },
+  {
+    "name": "France",
+    "officialName": "French Republic",
+    "iso2": "FR",
+    "iso3": "FRA",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 69081996,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "easy",
+    "fact": "Paris is the capital of France.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/fr.png",
+    "id": 77,
+    "flag": "fr.png"
+  },
+  {
+    "name": "French Guiana",
+    "officialName": "Guiana",
+    "iso2": "GF",
+    "iso3": "GUF",
+    "capital": "Cayenne",
+    "continent": "Americas",
+    "population": 254541,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Cayenne is the capital of French Guiana.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gf.png",
+    "id": 78,
+    "flag": "gf.png"
+  },
+  {
+    "name": "French Polynesia",
+    "officialName": "French Polynesia",
+    "iso2": "PF",
+    "iso3": "PYF",
+    "capital": "Papeetē",
+    "continent": "Oceania",
+    "population": 278786,
+    "languages": [
+      "French"
+    ],
+    "currency": "CFP franc",
+    "difficulty": "hard",
+    "fact": "Papeetē is the capital of French Polynesia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pf.png",
+    "id": 79,
+    "flag": "pf.png"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "officialName": "Territory of the French Southern and Antarctic Lands",
+    "iso2": "TF",
+    "iso3": "ATF",
+    "capital": "Port-aux-Français",
+    "continent": "Antarctic",
+    "population": 400,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Port-aux-Français is the capital of French Southern and Antarctic Lands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tf.png",
+    "id": 80,
+    "flag": "tf.png"
+  },
+  {
+    "name": "Gabon",
+    "officialName": "Gabonese Republic",
+    "iso2": "GA",
+    "iso3": "GAB",
+    "capital": "Libreville",
+    "continent": "Africa",
+    "population": 2469296,
+    "languages": [
+      "French"
+    ],
+    "currency": "Central African CFA franc",
+    "difficulty": "hard",
+    "fact": "Libreville is the capital of Gabon.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ga.png",
+    "id": 81,
+    "flag": "ga.png"
+  },
+  {
+    "name": "Gambia",
+    "officialName": "Republic of the Gambia",
+    "iso2": "GM",
+    "iso3": "GMB",
+    "capital": "Banjul",
+    "continent": "Africa",
+    "population": 2422712,
+    "languages": [
+      "English"
+    ],
+    "currency": "dalasi",
+    "difficulty": "hard",
+    "fact": "Banjul is the capital of Gambia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gm.png",
+    "id": 82,
+    "flag": "gm.png"
+  },
+  {
+    "name": "Georgia",
+    "officialName": "Georgia",
+    "iso2": "GE",
+    "iso3": "GEO",
+    "capital": "Tbilisi",
+    "continent": "Asia",
+    "population": 3657000,
+    "languages": [
+      "Georgian"
+    ],
+    "currency": "lari",
+    "difficulty": "hard",
+    "fact": "Tbilisi is the capital of Georgia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ge.png",
+    "id": 83,
+    "flag": "ge.png"
+  },
+  {
+    "name": "Germany",
+    "officialName": "Federal Republic of Germany",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 83467117,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro",
+    "difficulty": "easy",
+    "fact": "Berlin is the capital of Germany.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/de.png",
+    "id": 84,
+    "flag": "de.png"
+  },
+  {
+    "name": "Ghana",
+    "officialName": "Republic of Ghana",
+    "iso2": "GH",
+    "iso3": "GHA",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 33742380,
+    "languages": [
+      "English"
+    ],
+    "currency": "Ghanaian cedi",
+    "difficulty": "medium",
+    "fact": "Accra is the capital of Ghana.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gh.png",
+    "id": 85,
+    "flag": "gh.png"
+  },
+  {
+    "name": "Gibraltar",
+    "officialName": "Gibraltar",
+    "iso2": "GI",
+    "iso3": "GIB",
+    "capital": "Gibraltar",
+    "continent": "Europe",
+    "population": 38196,
+    "languages": [
+      "English"
+    ],
+    "currency": "Gibraltar pound",
+    "difficulty": "hard",
+    "fact": "Gibraltar is the capital of Gibraltar.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gi.png",
+    "id": 86,
+    "flag": "gi.png"
+  },
+  {
+    "name": "Greece",
+    "officialName": "Hellenic Republic",
+    "iso2": "GR",
+    "iso3": "GRC",
+    "capital": "Athens",
+    "continent": "Europe",
+    "population": 10372335,
+    "languages": [
+      "Greek"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Athens is the capital of Greece.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gr.png",
+    "id": 87,
+    "flag": "gr.png"
+  },
+  {
+    "name": "Greenland",
+    "officialName": "Greenland",
+    "iso2": "GL",
+    "iso3": "GRL",
+    "capital": "Nuuk",
+    "continent": "Americas",
+    "population": 56740,
+    "languages": [
+      "Greenlandic"
+    ],
+    "currency": "krone",
+    "difficulty": "hard",
+    "fact": "Nuuk is the capital of Greenland.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gl.png",
+    "id": 88,
+    "flag": "gl.png"
+  },
+  {
+    "name": "Grenada",
+    "officialName": "Grenada",
+    "iso2": "GD",
+    "iso3": "GRD",
+    "capital": "St. George's",
+    "continent": "Americas",
+    "population": 109021,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "St. George's is the capital of Grenada.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gd.png",
+    "id": 89,
+    "flag": "gd.png"
+  },
+  {
+    "name": "Guadeloupe",
+    "officialName": "Guadeloupe",
+    "iso2": "GP",
+    "iso3": "GLP",
+    "capital": "Basse-Terre",
+    "continent": "Americas",
+    "population": 400132,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Basse-Terre is the capital of Guadeloupe.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gp.png",
+    "id": 90,
+    "flag": "gp.png"
+  },
+  {
+    "name": "Guam",
+    "officialName": "Guam",
+    "iso2": "GU",
+    "iso3": "GUM",
+    "capital": "Hagåtña",
+    "continent": "Oceania",
+    "population": 153836,
+    "languages": [
+      "Chamorro",
+      "English",
+      "Spanish"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Hagåtña is the capital of Guam.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gu.png",
+    "id": 91,
+    "flag": "gu.png"
+  },
+  {
+    "name": "Guatemala",
+    "officialName": "Republic of Guatemala",
+    "iso2": "GT",
+    "iso3": "GTM",
+    "capital": "Guatemala City",
+    "continent": "Americas",
+    "population": 18406359,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Guatemalan quetzal",
+    "difficulty": "medium",
+    "fact": "Guatemala City is the capital of Guatemala.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gt.png",
+    "id": 92,
+    "flag": "gt.png"
+  },
+  {
+    "name": "Guernsey",
+    "officialName": "Bailiwick of Guernsey",
+    "iso2": "GG",
+    "iso3": "GGY",
+    "capital": "St. Peter Port",
+    "continent": "Europe",
+    "population": 64781,
+    "languages": [
+      "English",
+      "French",
+      "Norman"
+    ],
+    "currency": "British pound",
+    "difficulty": "hard",
+    "fact": "St. Peter Port is the capital of Guernsey.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gg.png",
+    "id": 93,
+    "flag": "gg.png"
+  },
+  {
+    "name": "Guinea",
+    "officialName": "Republic of Guinea",
+    "iso2": "GN",
+    "iso3": "GIN",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": 17521167,
+    "languages": [
+      "French"
+    ],
+    "currency": "Guinean franc",
+    "difficulty": "medium",
+    "fact": "Conakry is the capital of Guinea.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gn.png",
+    "id": 94,
+    "flag": "gn.png"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "officialName": "Republic of Guinea-Bissau",
+    "iso2": "GW",
+    "iso3": "GNB",
+    "capital": "Bissau",
+    "continent": "Africa",
+    "population": 1852784,
+    "languages": [
+      "Portuguese",
+      "Upper Guinea Crioulo"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "hard",
+    "fact": "Bissau is the capital of Guinea-Bissau.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gw.png",
+    "id": 95,
+    "flag": "gw.png"
+  },
+  {
+    "name": "Guyana",
+    "officialName": "Co-operative Republic of Guyana",
+    "iso2": "GY",
+    "iso3": "GUY",
+    "capital": "Georgetown",
+    "continent": "Americas",
+    "population": 956044,
+    "languages": [
+      "English"
+    ],
+    "currency": "Guyanese dollar",
+    "difficulty": "hard",
+    "fact": "Georgetown is the capital of Guyana.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gy.png",
+    "id": 96,
+    "flag": "gy.png"
+  },
+  {
+    "name": "Haiti",
+    "officialName": "Republic of Haiti",
+    "iso2": "HT",
+    "iso3": "HTI",
+    "capital": "Port-au-Prince",
+    "continent": "Americas",
+    "population": 11867032,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": "Haitian gourde",
+    "difficulty": "medium",
+    "fact": "Port-au-Prince is the capital of Haiti.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ht.png",
+    "id": 97,
+    "flag": "ht.png"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "officialName": "Heard Island and McDonald Islands",
+    "iso2": "HM",
+    "iso3": "HMD",
+    "capital": "Not available",
+    "continent": "Antarctic",
+    "population": 0,
+    "languages": [
+      "English"
+    ],
+    "currency": "Not available",
+    "difficulty": "hard",
+    "fact": "Heard Island and McDonald Islands is in Antarctic.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/hm.png",
+    "id": 98,
+    "flag": "hm.png"
+  },
+  {
+    "name": "Honduras",
+    "officialName": "Republic of Honduras",
+    "iso2": "HN",
+    "iso3": "HND",
+    "capital": "Tegucigalpa",
+    "continent": "Americas",
+    "population": 10186738,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Honduran lempira",
+    "difficulty": "medium",
+    "fact": "Tegucigalpa is the capital of Honduras.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/hn.png",
+    "id": 99,
+    "flag": "hn.png"
+  },
+  {
+    "name": "Hong Kong",
+    "officialName": "Hong Kong Special Administrative Region of the People's Republic of China",
+    "iso2": "HK",
+    "iso3": "HKG",
+    "capital": "City of Victoria",
+    "continent": "Asia",
+    "population": 7498100,
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "currency": "Hong Kong dollar",
+    "difficulty": "medium",
+    "fact": "City of Victoria is the capital of Hong Kong.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/hk.png",
+    "id": 100,
+    "flag": "hk.png"
+  },
+  {
+    "name": "Hungary",
+    "officialName": "Hungary",
+    "iso2": "HU",
+    "iso3": "HUN",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "population": 9489000,
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": "Hungarian forint",
+    "difficulty": "medium",
+    "fact": "Budapest is the capital of Hungary.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/hu.png",
+    "id": 101,
+    "flag": "hu.png"
+  },
+  {
+    "name": "Iceland",
+    "officialName": "Iceland",
+    "iso2": "IS",
+    "iso3": "ISL",
+    "capital": "Reykjavik",
+    "continent": "Europe",
+    "population": 395050,
+    "languages": [
+      "Icelandic"
+    ],
+    "currency": "Icelandic króna",
+    "difficulty": "hard",
+    "fact": "Reykjavik is the capital of Iceland.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/is.png",
+    "id": 102,
+    "flag": "is.png"
+  },
+  {
+    "name": "India",
+    "officialName": "Republic of India",
+    "iso2": "IN",
+    "iso3": "IND",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1429404000,
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ],
+    "currency": "Indian rupee",
+    "difficulty": "easy",
+    "fact": "New Delhi is the capital of India.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/in.png",
+    "id": 103,
+    "flag": "in.png"
+  },
+  {
+    "name": "Indonesia",
+    "officialName": "Republic of Indonesia",
+    "iso2": "ID",
+    "iso3": "IDN",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 288315089,
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": "Indonesian rupiah",
+    "difficulty": "easy",
+    "fact": "Jakarta is the capital of Indonesia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/id.png",
+    "id": 104,
+    "flag": "id.png"
+  },
+  {
+    "name": "Iran",
+    "officialName": "Islamic Republic of Iran",
+    "iso2": "IR",
+    "iso3": "IRN",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "population": 87134000,
+    "languages": [
+      "Persian"
+    ],
+    "currency": "Iranian rial",
+    "difficulty": "easy",
+    "fact": "Tehran is the capital of Iran.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ir.png",
+    "id": 105,
+    "flag": "ir.png"
+  },
+  {
+    "name": "Iraq",
+    "officialName": "Republic of Iraq",
+    "iso2": "IQ",
+    "iso3": "IRQ",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 46118793,
+    "languages": [
+      "Arabic",
+      "Aramaic",
+      "Central Kurdish"
+    ],
+    "currency": "Iraqi dinar",
+    "difficulty": "medium",
+    "fact": "Baghdad is the capital of Iraq.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/iq.png",
+    "id": 106,
+    "flag": "iq.png"
+  },
+  {
+    "name": "Ireland",
+    "officialName": "Republic of Ireland",
+    "iso2": "IE",
+    "iso3": "IRL",
+    "capital": "Dublin",
+    "continent": "Europe",
+    "population": 5458600,
+    "languages": [
+      "English",
+      "Irish"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Dublin is the capital of Ireland.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ie.png",
+    "id": 107,
+    "flag": "ie.png"
+  },
+  {
+    "name": "Isle of Man",
+    "officialName": "Isle of Man",
+    "iso2": "IM",
+    "iso3": "IMN",
+    "capital": "Douglas",
+    "continent": "Europe",
+    "population": 84523,
+    "languages": [
+      "English",
+      "Manx"
+    ],
+    "currency": "British pound",
+    "difficulty": "hard",
+    "fact": "Douglas is the capital of Isle of Man.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/im.png",
+    "id": 108,
+    "flag": "im.png"
+  },
+  {
+    "name": "Israel",
+    "officialName": "State of Israel",
+    "iso2": "IL",
+    "iso3": "ISR",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 10252800,
+    "languages": [
+      "Arabic",
+      "Hebrew"
+    ],
+    "currency": "Israeli new shekel",
+    "difficulty": "medium",
+    "fact": "Jerusalem is the capital of Israel.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/il.png",
+    "id": 109,
+    "flag": "il.png"
+  },
+  {
+    "name": "Italy",
+    "officialName": "Italian Republic",
+    "iso2": "IT",
+    "iso3": "ITA",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 58936123,
+    "languages": [
+      "Italian",
+      "Catalan"
+    ],
+    "currency": "Euro",
+    "difficulty": "easy",
+    "fact": "Rome is the capital of Italy.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/it.png",
+    "id": 110,
+    "flag": "it.png"
+  },
+  {
+    "name": "Ivory Coast",
+    "officialName": "Republic of Côte d'Ivoire",
+    "iso2": "CI",
+    "iso3": "CIV",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 31500000,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Yamoussoukro is the capital of Ivory Coast.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ci.png",
+    "id": 111,
+    "flag": "ci.png"
+  },
+  {
+    "name": "Jamaica",
+    "officialName": "Jamaica",
+    "iso2": "JM",
+    "iso3": "JAM",
+    "capital": "Kingston",
+    "continent": "Americas",
+    "population": 2774538,
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "currency": "Jamaican dollar",
+    "difficulty": "hard",
+    "fact": "Kingston is the capital of Jamaica.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/jm.png",
+    "id": 112,
+    "flag": "jm.png"
+  },
+  {
+    "name": "Japan",
+    "officialName": "Japan",
+    "iso2": "JP",
+    "iso3": "JPN",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 122850000,
+    "languages": [
+      "Japanese"
+    ],
+    "currency": "Japanese yen",
+    "difficulty": "easy",
+    "fact": "Tokyo is the capital of Japan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/jp.png",
+    "id": 113,
+    "flag": "jp.png"
+  },
+  {
+    "name": "Jersey",
+    "officialName": "Bailiwick of Jersey",
+    "iso2": "JE",
+    "iso3": "JEY",
+    "capital": "Saint Helier",
+    "continent": "Europe",
+    "population": 103267,
+    "languages": [
+      "English",
+      "French",
+      "Norman"
+    ],
+    "currency": "British pound",
+    "difficulty": "hard",
+    "fact": "Saint Helier is the capital of Jersey.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/je.png",
+    "id": 114,
+    "flag": "je.png"
+  },
+  {
+    "name": "Jordan",
+    "officialName": "Hashemite Kingdom of Jordan",
+    "iso2": "JO",
+    "iso3": "JOR",
+    "capital": "Amman",
+    "continent": "Asia",
+    "population": 11937000,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Jordanian dinar",
+    "difficulty": "medium",
+    "fact": "Amman is the capital of Jordan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/jo.png",
+    "id": 115,
+    "flag": "jo.png"
+  },
+  {
+    "name": "Kazakhstan",
+    "officialName": "Republic of Kazakhstan",
+    "iso2": "KZ",
+    "iso3": "KAZ",
+    "capital": "Astana",
+    "continent": "Asia",
+    "population": 20575979,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": "Kazakhstani tenge",
+    "difficulty": "medium",
+    "fact": "Astana is the capital of Kazakhstan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kz.png",
+    "id": 116,
+    "flag": "kz.png"
+  },
+  {
+    "name": "Kenya",
+    "officialName": "Republic of Kenya",
+    "iso2": "KE",
+    "iso3": "KEN",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": 53330978,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Kenyan shilling",
+    "difficulty": "easy",
+    "fact": "Nairobi is the capital of Kenya.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ke.png",
+    "id": 117,
+    "flag": "ke.png"
+  },
+  {
+    "name": "Kiribati",
+    "officialName": "Independent and Sovereign Republic of Kiribati",
+    "iso2": "KI",
+    "iso3": "KIR",
+    "capital": "South Tarawa",
+    "continent": "Oceania",
+    "population": 120740,
+    "languages": [
+      "English",
+      "Gilbertese"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "hard",
+    "fact": "South Tarawa is the capital of Kiribati.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ki.png",
+    "id": 118,
+    "flag": "ki.png"
+  },
+  {
+    "name": "Kosovo",
+    "officialName": "Republic of Kosovo",
+    "iso2": "XK",
+    "iso3": "UNK",
+    "capital": "Pristina",
+    "continent": "Europe",
+    "population": 1585566,
+    "languages": [
+      "Albanian",
+      "Serbian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Pristina is the capital of Kosovo.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/xk.png",
+    "id": 119,
+    "flag": "xk.png"
+  },
+  {
+    "name": "Kuwait",
+    "officialName": "State of Kuwait",
+    "iso2": "KW",
+    "iso3": "KWT",
+    "capital": "Kuwait City",
+    "continent": "Asia",
+    "population": 4881254,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Kuwaiti dinar",
+    "difficulty": "hard",
+    "fact": "Kuwait City is the capital of Kuwait.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kw.png",
+    "id": 120,
+    "flag": "kw.png"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "officialName": "Kyrgyz Republic",
+    "iso2": "KG",
+    "iso3": "KGZ",
+    "capital": "Bishkek",
+    "continent": "Asia",
+    "population": 7404300,
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "currency": "Kyrgyzstani som",
+    "difficulty": "medium",
+    "fact": "Bishkek is the capital of Kyrgyzstan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kg.png",
+    "id": 121,
+    "flag": "kg.png"
+  },
+  {
+    "name": "Laos",
+    "officialName": "Lao People's Democratic Republic",
+    "iso2": "LA",
+    "iso3": "LAO",
+    "capital": "Vientiane",
+    "continent": "Asia",
+    "population": 7745000,
+    "languages": [
+      "Lao"
+    ],
+    "currency": "Lao kip",
+    "difficulty": "medium",
+    "fact": "Vientiane is the capital of Laos.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/la.png",
+    "id": 122,
+    "flag": "la.png"
+  },
+  {
+    "name": "Latvia",
+    "officialName": "Republic of Latvia",
+    "iso2": "LV",
+    "iso3": "LVA",
+    "capital": "Riga",
+    "continent": "Europe",
+    "population": 1835200,
+    "languages": [
+      "Latvian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Riga is the capital of Latvia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lv.png",
+    "id": 123,
+    "flag": "lv.png"
+  },
+  {
+    "name": "Lebanon",
+    "officialName": "Lebanese Republic",
+    "iso2": "LB",
+    "iso3": "LBN",
+    "capital": "Beirut",
+    "continent": "Asia",
+    "population": 5895466,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "currency": "Lebanese pound",
+    "difficulty": "medium",
+    "fact": "Beirut is the capital of Lebanon.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lb.png",
+    "id": 124,
+    "flag": "lb.png"
+  },
+  {
+    "name": "Lesotho",
+    "officialName": "Kingdom of Lesotho",
+    "iso2": "LS",
+    "iso3": "LSO",
+    "capital": "Maseru",
+    "continent": "Africa",
+    "population": 2116427,
+    "languages": [
+      "English",
+      "Sotho"
+    ],
+    "currency": "Lesotho loti",
+    "difficulty": "hard",
+    "fact": "Maseru is the capital of Lesotho.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ls.png",
+    "id": 125,
+    "flag": "ls.png"
+  },
+  {
+    "name": "Liberia",
+    "officialName": "Republic of Liberia",
+    "iso2": "LR",
+    "iso3": "LBR",
+    "capital": "Monrovia",
+    "continent": "Africa",
+    "population": 5248621,
+    "languages": [
+      "English"
+    ],
+    "currency": "Liberian dollar",
+    "difficulty": "medium",
+    "fact": "Monrovia is the capital of Liberia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lr.png",
+    "id": 126,
+    "flag": "lr.png"
+  },
+  {
+    "name": "Libya",
+    "officialName": "State of Libya",
+    "iso2": "LY",
+    "iso3": "LBY",
+    "capital": "Tripoli",
+    "continent": "Africa",
+    "population": 7459000,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Libyan dinar",
+    "difficulty": "medium",
+    "fact": "Tripoli is the capital of Libya.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ly.png",
+    "id": 127,
+    "flag": "ly.png"
+  },
+  {
+    "name": "Liechtenstein",
+    "officialName": "Principality of Liechtenstein",
+    "iso2": "LI",
+    "iso3": "LIE",
+    "capital": "Vaduz",
+    "continent": "Europe",
+    "population": 41237,
+    "languages": [
+      "German"
+    ],
+    "currency": "Swiss franc",
+    "difficulty": "hard",
+    "fact": "Vaduz is the capital of Liechtenstein.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/li.png",
+    "id": 128,
+    "flag": "li.png"
+  },
+  {
+    "name": "Lithuania",
+    "officialName": "Republic of Lithuania",
+    "iso2": "LT",
+    "iso3": "LTU",
+    "capital": "Vilnius",
+    "continent": "Europe",
+    "population": 2886179,
+    "languages": [
+      "Lithuanian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Vilnius is the capital of Lithuania.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lt.png",
+    "id": 129,
+    "flag": "lt.png"
+  },
+  {
+    "name": "Luxembourg",
+    "officialName": "Grand Duchy of Luxembourg",
+    "iso2": "LU",
+    "iso3": "LUX",
+    "capital": "Luxembourg",
+    "continent": "Europe",
+    "population": 690959,
+    "languages": [
+      "German",
+      "French",
+      "Luxembourgish"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Luxembourg is the capital of Luxembourg.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lu.png",
+    "id": 130,
+    "flag": "lu.png"
+  },
+  {
+    "name": "Macau",
+    "officialName": "Macao Special Administrative Region of the People's Republic of China",
+    "iso2": "MO",
+    "iso3": "MAC",
+    "capital": "Not available",
+    "continent": "Asia",
+    "population": 688100,
+    "languages": [
+      "Portuguese",
+      "Chinese"
+    ],
+    "currency": "Macanese pataca",
+    "difficulty": "hard",
+    "fact": "Macau is in Asia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mo.png",
+    "id": 131,
+    "flag": "mo.png"
+  },
+  {
+    "name": "Madagascar",
+    "officialName": "Republic of Madagascar",
+    "iso2": "MG",
+    "iso3": "MDG",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 31727042,
+    "languages": [
+      "French",
+      "Malagasy"
+    ],
+    "currency": "Malagasy ariary",
+    "difficulty": "medium",
+    "fact": "Antananarivo is the capital of Madagascar.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mg.png",
+    "id": 132,
+    "flag": "mg.png"
+  },
+  {
+    "name": "Malawi",
+    "officialName": "Republic of Malawi",
+    "iso2": "MW",
+    "iso3": "MWI",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 20734262,
+    "languages": [
+      "English",
+      "Chichewa"
+    ],
+    "currency": "Malawian kwacha",
+    "difficulty": "medium",
+    "fact": "Lilongwe is the capital of Malawi.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mw.png",
+    "id": 133,
+    "flag": "mw.png"
+  },
+  {
+    "name": "Malaysia",
+    "officialName": "Malaysia",
+    "iso2": "MY",
+    "iso3": "MYS",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "population": 34374300,
+    "languages": [
+      "English",
+      "Malay"
+    ],
+    "currency": "Malaysian ringgit",
+    "difficulty": "medium",
+    "fact": "Kuala Lumpur is the capital of Malaysia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/my.png",
+    "id": 134,
+    "flag": "my.png"
+  },
+  {
+    "name": "Maldives",
+    "officialName": "Republic of Maldives",
+    "iso2": "MV",
+    "iso3": "MDV",
+    "capital": "Malé",
+    "continent": "Asia",
+    "population": 515132,
+    "languages": [
+      "Divehi"
+    ],
+    "currency": "Maldivian rufiyaa",
+    "difficulty": "hard",
+    "fact": "Malé is the capital of Maldives.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mv.png",
+    "id": 135,
+    "flag": "mv.png"
+  },
+  {
+    "name": "Mali",
+    "officialName": "Republic of Mali",
+    "iso2": "ML",
+    "iso3": "MLI",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 22395489,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Bamako is the capital of Mali.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ml.png",
+    "id": 136,
+    "flag": "ml.png"
+  },
+  {
+    "name": "Malta",
+    "officialName": "Republic of Malta",
+    "iso2": "MT",
+    "iso3": "MLT",
+    "capital": "Valletta",
+    "continent": "Europe",
+    "population": 574250,
+    "languages": [
+      "English",
+      "Maltese"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Valletta is the capital of Malta.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mt.png",
+    "id": 137,
+    "flag": "mt.png"
+  },
+  {
+    "name": "Marshall Islands",
+    "officialName": "Republic of the Marshall Islands",
+    "iso2": "MH",
+    "iso3": "MHL",
+    "capital": "Majuro",
+    "continent": "Oceania",
+    "population": 37548,
+    "languages": [
+      "English",
+      "Marshallese"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Majuro is the capital of Marshall Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mh.png",
+    "id": 138,
+    "flag": "mh.png"
+  },
+  {
+    "name": "Martinique",
+    "officialName": "Martinique",
+    "iso2": "MQ",
+    "iso3": "MTQ",
+    "capital": "Fort-de-France",
+    "continent": "Americas",
+    "population": 378243,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Fort-de-France is the capital of Martinique.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mq.png",
+    "id": 139,
+    "flag": "mq.png"
+  },
+  {
+    "name": "Mauritania",
+    "officialName": "Islamic Republic of Mauritania",
+    "iso2": "MR",
+    "iso3": "MRT",
+    "capital": "Nouakchott",
+    "continent": "Africa",
+    "population": 4927532,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Mauritanian ouguiya",
+    "difficulty": "hard",
+    "fact": "Nouakchott is the capital of Mauritania.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mr.png",
+    "id": 140,
+    "flag": "mr.png"
+  },
+  {
+    "name": "Mauritius",
+    "officialName": "Republic of Mauritius",
+    "iso2": "MU",
+    "iso3": "MUS",
+    "capital": "Port Louis",
+    "continent": "Africa",
+    "population": 1241856,
+    "languages": [
+      "English",
+      "French",
+      "Mauritian Creole"
+    ],
+    "currency": "Mauritian rupee",
+    "difficulty": "hard",
+    "fact": "Port Louis is the capital of Mauritius.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mu.png",
+    "id": 141,
+    "flag": "mu.png"
+  },
+  {
+    "name": "Mayotte",
+    "officialName": "Department of Mayotte",
+    "iso2": "YT",
+    "iso3": "MYT",
+    "capital": "Mamoudzou",
+    "continent": "Africa",
+    "population": 226915,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Mamoudzou is the capital of Mayotte.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/yt.png",
+    "id": 142,
+    "flag": "yt.png"
+  },
+  {
+    "name": "Mexico",
+    "officialName": "United Mexican States",
+    "iso2": "MX",
+    "iso3": "MEX",
+    "capital": "Mexico City",
+    "continent": "Americas",
+    "population": 131150866,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Mexican peso",
+    "difficulty": "easy",
+    "fact": "Mexico City is the capital of Mexico.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mx.png",
+    "id": 143,
+    "flag": "mx.png"
+  },
+  {
+    "name": "Micronesia",
+    "officialName": "Federated States of Micronesia",
+    "iso2": "FM",
+    "iso3": "FSM",
+    "capital": "Palikir",
+    "continent": "Oceania",
+    "population": 75817,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Palikir is the capital of Micronesia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/fm.png",
+    "id": 144,
+    "flag": "fm.png"
+  },
+  {
+    "name": "Moldova",
+    "officialName": "Republic of Moldova",
+    "iso2": "MD",
+    "iso3": "MDA",
+    "capital": "Chișinău",
+    "continent": "Europe",
+    "population": 2365600,
+    "languages": [
+      "Romanian"
+    ],
+    "currency": "Moldovan leu",
+    "difficulty": "hard",
+    "fact": "Chișinău is the capital of Moldova.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/md.png",
+    "id": 145,
+    "flag": "md.png"
+  },
+  {
+    "name": "Monaco",
+    "officialName": "Principality of Monaco",
+    "iso2": "MC",
+    "iso3": "MCO",
+    "capital": "Monaco",
+    "continent": "Europe",
+    "population": 38857,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Monaco is the capital of Monaco.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mc.png",
+    "id": 146,
+    "flag": "mc.png"
+  },
+  {
+    "name": "Mongolia",
+    "officialName": "Mongolia",
+    "iso2": "MN",
+    "iso3": "MNG",
+    "capital": "Ulan Bator",
+    "continent": "Asia",
+    "population": 3591120,
+    "languages": [
+      "Mongolian"
+    ],
+    "currency": "Mongolian tögrög",
+    "difficulty": "hard",
+    "fact": "Ulan Bator is the capital of Mongolia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mn.png",
+    "id": 147,
+    "flag": "mn.png"
+  },
+  {
+    "name": "Montenegro",
+    "officialName": "Montenegro",
+    "iso2": "ME",
+    "iso3": "MNE",
+    "capital": "Podgorica",
+    "continent": "Europe",
+    "population": 622902,
+    "languages": [
+      "Montenegrin"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Podgorica is the capital of Montenegro.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/me.png",
+    "id": 148,
+    "flag": "me.png"
+  },
+  {
+    "name": "Montserrat",
+    "officialName": "Montserrat",
+    "iso2": "MS",
+    "iso3": "MSR",
+    "capital": "Plymouth",
+    "continent": "Americas",
+    "population": 4386,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "Plymouth is the capital of Montserrat.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ms.png",
+    "id": 149,
+    "flag": "ms.png"
+  },
+  {
+    "name": "Morocco",
+    "officialName": "Kingdom of Morocco",
+    "iso2": "MA",
+    "iso3": "MAR",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "population": 36828330,
+    "languages": [
+      "Arabic",
+      "Standard Moroccan Tamazight"
+    ],
+    "currency": "Moroccan dirham",
+    "difficulty": "medium",
+    "fact": "Rabat is the capital of Morocco.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ma.png",
+    "id": 150,
+    "flag": "ma.png"
+  },
+  {
+    "name": "Mozambique",
+    "officialName": "Republic of Mozambique",
+    "iso2": "MZ",
+    "iso3": "MOZ",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": 34090466,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Mozambican metical",
+    "difficulty": "medium",
+    "fact": "Maputo is the capital of Mozambique.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mz.png",
+    "id": 151,
+    "flag": "mz.png"
+  },
+  {
+    "name": "Myanmar",
+    "officialName": "Republic of the Union of Myanmar",
+    "iso2": "MM",
+    "iso3": "MMR",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "population": 51375327,
+    "languages": [
+      "Burmese"
+    ],
+    "currency": "Burmese kyat",
+    "difficulty": "easy",
+    "fact": "Naypyidaw is the capital of Myanmar.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mm.png",
+    "id": 152,
+    "flag": "mm.png"
+  },
+  {
+    "name": "Namibia",
+    "officialName": "Republic of Namibia",
+    "iso2": "NA",
+    "iso3": "NAM",
+    "capital": "Windhoek",
+    "continent": "Africa",
+    "population": 3022401,
+    "languages": [
+      "Afrikaans",
+      "German",
+      "English",
+      "Herero",
+      "Hai‖om",
+      "Kwangali",
+      "Lozi",
+      "Ndonga",
+      "Tswana"
+    ],
+    "currency": "Namibian dollar",
+    "difficulty": "hard",
+    "fact": "Windhoek is the capital of Namibia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/na.png",
+    "id": 153,
+    "flag": "na.png"
+  },
+  {
+    "name": "Nauru",
+    "officialName": "Republic of Nauru",
+    "iso2": "NR",
+    "iso3": "NRU",
+    "capital": "Yaren",
+    "continent": "Oceania",
+    "population": 11680,
+    "languages": [
+      "English",
+      "Nauruan"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "hard",
+    "fact": "Yaren is the capital of Nauru.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/nr.png",
+    "id": 154,
+    "flag": "nr.png"
+  },
+  {
+    "name": "Nepal",
+    "officialName": "Federal Democratic Republic of Nepal",
+    "iso2": "NP",
+    "iso3": "NPL",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 29911840,
+    "languages": [
+      "Nepali"
+    ],
+    "currency": "Nepalese rupee",
+    "difficulty": "medium",
+    "fact": "Kathmandu is the capital of Nepal.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/np.png",
+    "id": 155,
+    "flag": "np.png"
+  },
+  {
+    "name": "Netherlands",
+    "officialName": "Kingdom of the Netherlands",
+    "iso2": "NL",
+    "iso3": "NLD",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 18151406,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Amsterdam is the capital of Netherlands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/nl.png",
+    "id": 156,
+    "flag": "nl.png"
+  },
+  {
+    "name": "New Caledonia",
+    "officialName": "New Caledonia",
+    "iso2": "NC",
+    "iso3": "NCL",
+    "capital": "Nouméa",
+    "continent": "Oceania",
+    "population": 264596,
+    "languages": [
+      "French"
+    ],
+    "currency": "CFP franc",
+    "difficulty": "hard",
+    "fact": "Nouméa is the capital of New Caledonia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/nc.png",
+    "id": 157,
+    "flag": "nc.png"
+  },
+  {
+    "name": "New Zealand",
+    "officialName": "New Zealand",
+    "iso2": "NZ",
+    "iso3": "NZL",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "population": 4993923,
+    "languages": [
+      "English",
+      "Maori",
+      "New Zealand Sign Language"
+    ],
+    "currency": "New Zealand dollar",
+    "difficulty": "hard",
+    "fact": "Wellington is the capital of New Zealand.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/nz.png",
+    "id": 158,
+    "flag": "nz.png"
+  },
+  {
+    "name": "Nicaragua",
+    "officialName": "Republic of Nicaragua",
+    "iso2": "NI",
+    "iso3": "NIC",
+    "capital": "Managua",
+    "continent": "Americas",
+    "population": 6874748,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Nicaraguan córdoba",
+    "difficulty": "medium",
+    "fact": "Managua is the capital of Nicaragua.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ni.png",
+    "id": 159,
+    "flag": "ni.png"
+  },
+  {
+    "name": "Niger",
+    "officialName": "Republic of Niger",
+    "iso2": "NE",
+    "iso3": "NER",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 27522750,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Niamey is the capital of Niger.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ne.png",
+    "id": 160,
+    "flag": "ne.png"
+  },
+  {
+    "name": "Nigeria",
+    "officialName": "Federal Republic of Nigeria",
+    "iso2": "NG",
+    "iso3": "NGA",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 223800000,
+    "languages": [
+      "English"
+    ],
+    "currency": "Nigerian naira",
+    "difficulty": "easy",
+    "fact": "Abuja is the capital of Nigeria.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ng.png",
+    "id": 161,
+    "flag": "ng.png"
+  },
+  {
+    "name": "Niue",
+    "officialName": "Niue",
+    "iso2": "NU",
+    "iso3": "NIU",
+    "capital": "Alofi",
+    "continent": "Oceania",
+    "population": 1681,
+    "languages": [
+      "English",
+      "Niuean"
+    ],
+    "currency": "New Zealand dollar",
+    "difficulty": "hard",
+    "fact": "Alofi is the capital of Niue.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/nu.png",
+    "id": 162,
+    "flag": "nu.png"
+  },
+  {
+    "name": "Norfolk Island",
+    "officialName": "Territory of Norfolk Island",
+    "iso2": "NF",
+    "iso3": "NFK",
+    "capital": "Kingston",
+    "continent": "Oceania",
+    "population": 2188,
+    "languages": [
+      "English",
+      "Norfuk"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "hard",
+    "fact": "Kingston is the capital of Norfolk Island.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/nf.png",
+    "id": 163,
+    "flag": "nf.png"
+  },
+  {
+    "name": "North Korea",
+    "officialName": "Democratic People's Republic of Korea",
+    "iso2": "KP",
+    "iso3": "PRK",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": 25950000,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "North Korean won",
+    "difficulty": "medium",
+    "fact": "Pyongyang is the capital of North Korea.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kp.png",
+    "id": 164,
+    "flag": "kp.png"
+  },
+  {
+    "name": "North Macedonia",
+    "officialName": "Republic of North Macedonia",
+    "iso2": "MK",
+    "iso3": "MKD",
+    "capital": "Skopje",
+    "continent": "Europe",
+    "population": 1836713,
+    "languages": [
+      "Macedonian"
+    ],
+    "currency": "denar",
+    "difficulty": "hard",
+    "fact": "Skopje is the capital of North Macedonia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mk.png",
+    "id": 165,
+    "flag": "mk.png"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "officialName": "Commonwealth of the Northern Mariana Islands",
+    "iso2": "MP",
+    "iso3": "MNP",
+    "capital": "Saipan",
+    "continent": "Oceania",
+    "population": 46078,
+    "languages": [
+      "Carolinian",
+      "Chamorro",
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Saipan is the capital of Northern Mariana Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mp.png",
+    "id": 166,
+    "flag": "mp.png"
+  },
+  {
+    "name": "Norway",
+    "officialName": "Kingdom of Norway",
+    "iso2": "NO",
+    "iso3": "NOR",
+    "capital": "Oslo",
+    "continent": "Europe",
+    "population": 5633770,
+    "languages": [
+      "Norwegian Nynorsk",
+      "Norwegian Bokmål",
+      "Northern Sami",
+      "Lule Sami",
+      "Southern Sami"
+    ],
+    "currency": "Norwegian krone",
+    "difficulty": "medium",
+    "fact": "Oslo is the capital of Norway.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/no.png",
+    "id": 167,
+    "flag": "no.png"
+  },
+  {
+    "name": "Oman",
+    "officialName": "Sultanate of Oman",
+    "iso2": "OM",
+    "iso3": "OMN",
+    "capital": "Muscat",
+    "continent": "Asia",
+    "population": 5291146,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Omani rial",
+    "difficulty": "medium",
+    "fact": "Muscat is the capital of Oman.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/om.png",
+    "id": 168,
+    "flag": "om.png"
+  },
+  {
+    "name": "Pakistan",
+    "officialName": "Islamic Republic of Pakistan",
+    "iso2": "PK",
+    "iso3": "PAK",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 241499431,
+    "languages": [
+      "English",
+      "Urdu"
+    ],
+    "currency": "Pakistani rupee",
+    "difficulty": "easy",
+    "fact": "Islamabad is the capital of Pakistan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pk.png",
+    "id": 169,
+    "flag": "pk.png"
+  },
+  {
+    "name": "Palau",
+    "officialName": "Republic of Palau",
+    "iso2": "PW",
+    "iso3": "PLW",
+    "capital": "Ngerulmud",
+    "continent": "Oceania",
+    "population": 16733,
+    "languages": [
+      "English",
+      "Palauan"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Ngerulmud is the capital of Palau.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pw.png",
+    "id": 170,
+    "flag": "pw.png"
+  },
+  {
+    "name": "Palestine",
+    "officialName": "State of Palestine",
+    "iso2": "PS",
+    "iso3": "PSE",
+    "capital": "Ramallah",
+    "continent": "Asia",
+    "population": 5557096,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Egyptian pound",
+    "difficulty": "medium",
+    "fact": "Ramallah is the capital of Palestine.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ps.png",
+    "id": 171,
+    "flag": "ps.png"
+  },
+  {
+    "name": "Panama",
+    "officialName": "Republic of Panama",
+    "iso2": "PA",
+    "iso3": "PAN",
+    "capital": "Panama City",
+    "continent": "Americas",
+    "population": 4064780,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Panamanian balboa",
+    "difficulty": "hard",
+    "fact": "Panama City is the capital of Panama.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pa.png",
+    "id": 172,
+    "flag": "pa.png"
+  },
+  {
+    "name": "Papua New Guinea",
+    "officialName": "Independent State of Papua New Guinea",
+    "iso2": "PG",
+    "iso3": "PNG",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 11781559,
+    "languages": [
+      "English",
+      "Hiri Motu",
+      "Tok Pisin"
+    ],
+    "currency": "Papua New Guinean kina",
+    "difficulty": "medium",
+    "fact": "Port Moresby is the capital of Papua New Guinea.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pg.png",
+    "id": 173,
+    "flag": "pg.png"
+  },
+  {
+    "name": "Paraguay",
+    "officialName": "Republic of Paraguay",
+    "iso2": "PY",
+    "iso3": "PRY",
+    "capital": "Asunción",
+    "continent": "Americas",
+    "population": 6109644,
+    "languages": [
+      "Guarani",
+      "Spanish"
+    ],
+    "currency": "Paraguayan guaraní",
+    "difficulty": "medium",
+    "fact": "Asunción is the capital of Paraguay.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/py.png",
+    "id": 174,
+    "flag": "py.png"
+  },
+  {
+    "name": "Peru",
+    "officialName": "Republic of Peru",
+    "iso2": "PE",
+    "iso3": "PER",
+    "capital": "Lima",
+    "continent": "Americas",
+    "population": 34350244,
+    "languages": [
+      "Aymara",
+      "Quechua",
+      "Spanish"
+    ],
+    "currency": "Peruvian sol",
+    "difficulty": "medium",
+    "fact": "Lima is the capital of Peru.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pe.png",
+    "id": 175,
+    "flag": "pe.png"
+  },
+  {
+    "name": "Philippines",
+    "officialName": "Republic of the Philippines",
+    "iso2": "PH",
+    "iso3": "PHL",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 114123600,
+    "languages": [
+      "English",
+      "Filipino"
+    ],
+    "currency": "Philippine peso",
+    "difficulty": "easy",
+    "fact": "Manila is the capital of Philippines.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ph.png",
+    "id": 176,
+    "flag": "ph.png"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "officialName": "Pitcairn Group of Islands",
+    "iso2": "PN",
+    "iso3": "PCN",
+    "capital": "Adamstown",
+    "continent": "Oceania",
+    "population": 35,
+    "languages": [
+      "English"
+    ],
+    "currency": "New Zealand dollar",
+    "difficulty": "hard",
+    "fact": "Adamstown is the capital of Pitcairn Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pn.png",
+    "id": 177,
+    "flag": "pn.png"
+  },
+  {
+    "name": "Poland",
+    "officialName": "Republic of Poland",
+    "iso2": "PL",
+    "iso3": "POL",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 37281000,
+    "languages": [
+      "Polish"
+    ],
+    "currency": "Polish złoty",
+    "difficulty": "medium",
+    "fact": "Warsaw is the capital of Poland.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pl.png",
+    "id": 178,
+    "flag": "pl.png"
+  },
+  {
+    "name": "Portugal",
+    "officialName": "Portuguese Republic",
+    "iso2": "PT",
+    "iso3": "PRT",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 11424031,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Lisbon is the capital of Portugal.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pt.png",
+    "id": 179,
+    "flag": "pt.png"
+  },
+  {
+    "name": "Puerto Rico",
+    "officialName": "Commonwealth of Puerto Rico",
+    "iso2": "PR",
+    "iso3": "PRI",
+    "capital": "San Juan",
+    "continent": "Americas",
+    "population": 3194034,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "San Juan is the capital of Puerto Rico.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pr.png",
+    "id": 180,
+    "flag": "pr.png"
+  },
+  {
+    "name": "Qatar",
+    "officialName": "State of Qatar",
+    "iso2": "QA",
+    "iso3": "QAT",
+    "capital": "Doha",
+    "continent": "Asia",
+    "population": 3370611,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Qatari riyal",
+    "difficulty": "hard",
+    "fact": "Doha is the capital of Qatar.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/qa.png",
+    "id": 181,
+    "flag": "qa.png"
+  },
+  {
+    "name": "Réunion",
+    "officialName": "Réunion Island",
+    "iso2": "RE",
+    "iso3": "REU",
+    "capital": "Saint-Denis",
+    "continent": "Africa",
+    "population": 840974,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Saint-Denis is the capital of Réunion.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/re.png",
+    "id": 182,
+    "flag": "re.png"
+  },
+  {
+    "name": "Romania",
+    "officialName": "Romania",
+    "iso2": "RO",
+    "iso3": "ROU",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": 19036031,
+    "languages": [
+      "Romanian"
+    ],
+    "currency": "Romanian leu",
+    "difficulty": "medium",
+    "fact": "Bucharest is the capital of Romania.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ro.png",
+    "id": 183,
+    "flag": "ro.png"
+  },
+  {
+    "name": "Russia",
+    "officialName": "Russian Federation",
+    "iso2": "RU",
+    "iso3": "RUS",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": 146028325,
+    "languages": [
+      "Russian"
+    ],
+    "currency": "Russian ruble",
+    "difficulty": "easy",
+    "fact": "Moscow is the capital of Russia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ru.png",
+    "id": 184,
+    "flag": "ru.png"
+  },
+  {
+    "name": "Rwanda",
+    "officialName": "Republic of Rwanda",
+    "iso2": "RW",
+    "iso3": "RWA",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 14418145,
+    "languages": [
+      "English",
+      "French",
+      "Kinyarwanda"
+    ],
+    "currency": "Rwandan franc",
+    "difficulty": "medium",
+    "fact": "Kigali is the capital of Rwanda.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/rw.png",
+    "id": 185,
+    "flag": "rw.png"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "officialName": "Collectivity of Saint Barthélemy",
+    "iso2": "BL",
+    "iso3": "BLM",
+    "capital": "Gustavia",
+    "continent": "Americas",
+    "population": 4255,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Gustavia is the capital of Saint Barthélemy.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/bl.png",
+    "id": 186,
+    "flag": "bl.png"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "officialName": "Saint Helena, Ascension and Tristan da Cunha",
+    "iso2": "SH",
+    "iso3": "SHN",
+    "capital": "Jamestown",
+    "continent": "Africa",
+    "population": 53192,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound sterling",
+    "difficulty": "hard",
+    "fact": "Jamestown is the capital of Saint Helena, Ascension and Tristan da Cunha.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sh.png",
+    "id": 187,
+    "flag": "sh.png"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "officialName": "Federation of Saint Christopher and Nevis",
+    "iso2": "KN",
+    "iso3": "KNA",
+    "capital": "Basseterre",
+    "continent": "Americas",
+    "population": 54338,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "Basseterre is the capital of Saint Kitts and Nevis.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kn.png",
+    "id": 188,
+    "flag": "kn.png"
+  },
+  {
+    "name": "Saint Lucia",
+    "officialName": "Saint Lucia",
+    "iso2": "LC",
+    "iso3": "LCA",
+    "capital": "Castries",
+    "continent": "Americas",
+    "population": 184100,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "Castries is the capital of Saint Lucia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lc.png",
+    "id": 189,
+    "flag": "lc.png"
+  },
+  {
+    "name": "Saint Martin",
+    "officialName": "Saint Martin",
+    "iso2": "MF",
+    "iso3": "MAF",
+    "capital": "Marigot",
+    "continent": "Americas",
+    "population": 38659,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Marigot is the capital of Saint Martin.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/mf.png",
+    "id": 190,
+    "flag": "mf.png"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "officialName": "Saint Pierre and Miquelon",
+    "iso2": "PM",
+    "iso3": "SPM",
+    "capital": "Saint-Pierre",
+    "continent": "Americas",
+    "population": 5819,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Saint-Pierre is the capital of Saint Pierre and Miquelon.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/pm.png",
+    "id": 191,
+    "flag": "pm.png"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "officialName": "Saint Vincent and the Grenadines",
+    "iso2": "VC",
+    "iso3": "VCT",
+    "capital": "Kingstown",
+    "continent": "Americas",
+    "population": 110872,
+    "languages": [
+      "English"
+    ],
+    "currency": "Eastern Caribbean dollar",
+    "difficulty": "hard",
+    "fact": "Kingstown is the capital of Saint Vincent and the Grenadines.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/vc.png",
+    "id": 192,
+    "flag": "vc.png"
+  },
+  {
+    "name": "Samoa",
+    "officialName": "Independent State of Samoa",
+    "iso2": "WS",
+    "iso3": "WSM",
+    "capital": "Apia",
+    "continent": "Oceania",
+    "population": 205557,
+    "languages": [
+      "English",
+      "Samoan"
+    ],
+    "currency": "Samoan tālā",
+    "difficulty": "hard",
+    "fact": "Apia is the capital of Samoa.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ws.png",
+    "id": 193,
+    "flag": "ws.png"
+  },
+  {
+    "name": "San Marino",
+    "officialName": "Republic of San Marino",
+    "iso2": "SM",
+    "iso3": "SMR",
+    "capital": "City of San Marino",
+    "continent": "Europe",
+    "population": 34172,
+    "languages": [
+      "Italian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "City of San Marino is the capital of San Marino.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sm.png",
+    "id": 194,
+    "flag": "sm.png"
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "officialName": "Democratic Republic of São Tomé and Príncipe",
+    "iso2": "ST",
+    "iso3": "STP",
+    "capital": "São Tomé",
+    "continent": "Africa",
+    "population": 220372,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "São Tomé and Príncipe dobra",
+    "difficulty": "hard",
+    "fact": "São Tomé is the capital of São Tomé and Príncipe.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/st.png",
+    "id": 195,
+    "flag": "st.png"
+  },
+  {
+    "name": "Saudi Arabia",
+    "officialName": "Kingdom of Saudi Arabia",
+    "iso2": "SA",
+    "iso3": "SAU",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "population": 33702731,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Saudi riyal",
+    "difficulty": "medium",
+    "fact": "Riyadh is the capital of Saudi Arabia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sa.png",
+    "id": 196,
+    "flag": "sa.png"
+  },
+  {
+    "name": "Senegal",
+    "officialName": "Republic of Senegal",
+    "iso2": "SN",
+    "iso3": "SEN",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 19075959,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Dakar is the capital of Senegal.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sn.png",
+    "id": 197,
+    "flag": "sn.png"
+  },
+  {
+    "name": "Serbia",
+    "officialName": "Republic of Serbia",
+    "iso2": "RS",
+    "iso3": "SRB",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": 6532019,
+    "languages": [
+      "Serbian"
+    ],
+    "currency": "Serbian dinar",
+    "difficulty": "medium",
+    "fact": "Belgrade is the capital of Serbia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/rs.png",
+    "id": 198,
+    "flag": "rs.png"
+  },
+  {
+    "name": "Seychelles",
+    "officialName": "Republic of Seychelles",
+    "iso2": "SC",
+    "iso3": "SYC",
+    "capital": "Victoria",
+    "continent": "Africa",
+    "population": 123097,
+    "languages": [
+      "Seychellois Creole",
+      "English",
+      "French"
+    ],
+    "currency": "Seychellois rupee",
+    "difficulty": "hard",
+    "fact": "Victoria is the capital of Seychelles.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sc.png",
+    "id": 199,
+    "flag": "sc.png"
+  },
+  {
+    "name": "Sierra Leone",
+    "officialName": "Republic of Sierra Leone",
+    "iso2": "SL",
+    "iso3": "SLE",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 8460512,
+    "languages": [
+      "English"
+    ],
+    "currency": "Leone",
+    "difficulty": "medium",
+    "fact": "Freetown is the capital of Sierra Leone.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sl.png",
+    "id": 200,
+    "flag": "sl.png"
+  },
+  {
+    "name": "Singapore",
+    "officialName": "Republic of Singapore",
+    "iso2": "SG",
+    "iso3": "SGP",
+    "capital": "Singapore",
+    "continent": "Asia",
+    "population": 6110200,
+    "languages": [
+      "English",
+      "Chinese",
+      "Malay",
+      "Tamil"
+    ],
+    "currency": "Singapore dollar",
+    "difficulty": "medium",
+    "fact": "Singapore is the capital of Singapore.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sg.png",
+    "id": 201,
+    "flag": "sg.png"
+  },
+  {
+    "name": "Sint Maarten",
+    "officialName": "Sint Maarten",
+    "iso2": "SX",
+    "iso3": "SXM",
+    "capital": "Philipsburg",
+    "continent": "Americas",
+    "population": 58477,
+    "languages": [
+      "English",
+      "French",
+      "Dutch"
+    ],
+    "currency": "Netherlands Antillean guilder",
+    "difficulty": "hard",
+    "fact": "Philipsburg is the capital of Sint Maarten.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sx.png",
+    "id": 202,
+    "flag": "sx.png"
+  },
+  {
+    "name": "Slovakia",
+    "officialName": "Slovak Republic",
+    "iso2": "SK",
+    "iso3": "SVK",
+    "capital": "Bratislava",
+    "continent": "Europe",
+    "population": 5405368,
+    "languages": [
+      "Slovak"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Bratislava is the capital of Slovakia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sk.png",
+    "id": 203,
+    "flag": "sk.png"
+  },
+  {
+    "name": "Slovenia",
+    "officialName": "Republic of Slovenia",
+    "iso2": "SI",
+    "iso3": "SVN",
+    "capital": "Ljubljana",
+    "continent": "Europe",
+    "population": 2135107,
+    "languages": [
+      "Slovenian"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Ljubljana is the capital of Slovenia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/si.png",
+    "id": 204,
+    "flag": "si.png"
+  },
+  {
+    "name": "Solomon Islands",
+    "officialName": "Solomon Islands",
+    "iso2": "SB",
+    "iso3": "SLB",
+    "capital": "Honiara",
+    "continent": "Oceania",
+    "population": 828857,
+    "languages": [
+      "English"
+    ],
+    "currency": "Solomon Islands dollar",
+    "difficulty": "hard",
+    "fact": "Honiara is the capital of Solomon Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sb.png",
+    "id": 205,
+    "flag": "sb.png"
+  },
+  {
+    "name": "Somalia",
+    "officialName": "Federal Republic of Somalia",
+    "iso2": "SO",
+    "iso3": "SOM",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 19655000,
+    "languages": [
+      "Arabic",
+      "Somali"
+    ],
+    "currency": "Somali shilling",
+    "difficulty": "medium",
+    "fact": "Mogadishu is the capital of Somalia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/so.png",
+    "id": 206,
+    "flag": "so.png"
+  },
+  {
+    "name": "South Africa",
+    "officialName": "Republic of South Africa",
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 63015904,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Southern Ndebele",
+      "Northern Sotho",
+      "Sotho",
+      "Swazi",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulu"
+    ],
+    "currency": "South African rand",
+    "difficulty": "easy",
+    "fact": "Pretoria is the capital of South Africa.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/za.png",
+    "id": 207,
+    "flag": "za.png"
+  },
+  {
+    "name": "South Georgia",
+    "officialName": "South Georgia and the South Sandwich Islands",
+    "iso2": "GS",
+    "iso3": "SGS",
+    "capital": "King Edward Point",
+    "continent": "Antarctic",
+    "population": 32,
+    "languages": [
+      "English"
+    ],
+    "currency": "British pound",
+    "difficulty": "hard",
+    "fact": "King Edward Point is the capital of South Georgia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gs.png",
+    "id": 208,
+    "flag": "gs.png"
+  },
+  {
+    "name": "South Korea",
+    "officialName": "Republic of Korea",
+    "iso2": "KR",
+    "iso3": "KOR",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 51106229,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "South Korean won",
+    "difficulty": "easy",
+    "fact": "Seoul is the capital of South Korea.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/kr.png",
+    "id": 209,
+    "flag": "kr.png"
+  },
+  {
+    "name": "South Sudan",
+    "officialName": "Republic of South Sudan",
+    "iso2": "SS",
+    "iso3": "SSD",
+    "capital": "Juba",
+    "continent": "Africa",
+    "population": 12703714,
+    "languages": [
+      "English"
+    ],
+    "currency": "South Sudanese pound",
+    "difficulty": "medium",
+    "fact": "Juba is the capital of South Sudan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ss.png",
+    "id": 210,
+    "flag": "ss.png"
+  },
+  {
+    "name": "Spain",
+    "officialName": "Kingdom of Spain",
+    "iso2": "ES",
+    "iso3": "ESP",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 49687120,
+    "languages": [
+      "Spanish",
+      "Catalan",
+      "Basque",
+      "Galician",
+      "Aranese"
+    ],
+    "currency": "Euro",
+    "difficulty": "medium",
+    "fact": "Madrid is the capital of Spain.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/es.png",
+    "id": 211,
+    "flag": "es.png"
+  },
+  {
+    "name": "Sri Lanka",
+    "officialName": "Democratic Socialist Republic of Sri Lanka",
+    "iso2": "LK",
+    "iso3": "LKA",
+    "capital": "Sri Jayawardenepura Kotte",
+    "continent": "Asia",
+    "population": 21756000,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": "Sri Lankan rupee",
+    "difficulty": "medium",
+    "fact": "Sri Jayawardenepura Kotte is the capital of Sri Lanka.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/lk.png",
+    "id": 212,
+    "flag": "lk.png"
+  },
+  {
+    "name": "Sudan",
+    "officialName": "Republic of the Sudan",
+    "iso2": "SD",
+    "iso3": "SDN",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 51662000,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Sudanese pound",
+    "difficulty": "easy",
+    "fact": "Khartoum is the capital of Sudan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sd.png",
+    "id": 213,
+    "flag": "sd.png"
+  },
+  {
+    "name": "Suriname",
+    "officialName": "Republic of Suriname",
+    "iso2": "SR",
+    "iso3": "SUR",
+    "capital": "Paramaribo",
+    "continent": "Americas",
+    "population": 616500,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": "Surinamese dollar",
+    "difficulty": "hard",
+    "fact": "Paramaribo is the capital of Suriname.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sr.png",
+    "id": 214,
+    "flag": "sr.png"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "officialName": "Svalbard og Jan Mayen",
+    "iso2": "SJ",
+    "iso3": "SJM",
+    "capital": "Longyearbyen",
+    "continent": "Europe",
+    "population": 2562,
+    "languages": [
+      "Norwegian"
+    ],
+    "currency": "krone",
+    "difficulty": "hard",
+    "fact": "Longyearbyen is the capital of Svalbard and Jan Mayen.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sj.png",
+    "id": 215,
+    "flag": "sj.png"
+  },
+  {
+    "name": "Sweden",
+    "officialName": "Kingdom of Sweden",
+    "iso2": "SE",
+    "iso3": "SWE",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 10608128,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Swedish krona",
+    "difficulty": "medium",
+    "fact": "Stockholm is the capital of Sweden.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/se.png",
+    "id": 216,
+    "flag": "se.png"
+  },
+  {
+    "name": "Switzerland",
+    "officialName": "Swiss Confederation",
+    "iso2": "CH",
+    "iso3": "CHE",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 9139676,
+    "languages": [
+      "French",
+      "Swiss German",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": "Swiss franc",
+    "difficulty": "medium",
+    "fact": "Bern is the capital of Switzerland.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ch.png",
+    "id": 217,
+    "flag": "ch.png"
+  },
+  {
+    "name": "Syria",
+    "officialName": "Syrian Arab Republic",
+    "iso2": "SY",
+    "iso3": "SYR",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": 26472497,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Syrian pound",
+    "difficulty": "medium",
+    "fact": "Damascus is the capital of Syria.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/sy.png",
+    "id": 218,
+    "flag": "sy.png"
+  },
+  {
+    "name": "Taiwan",
+    "officialName": "Republic of China (Taiwan)",
+    "iso2": "TW",
+    "iso3": "TWN",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": 23243565,
+    "languages": [
+      "Chinese"
+    ],
+    "currency": "New Taiwan dollar",
+    "difficulty": "medium",
+    "fact": "Taipei is the capital of Taiwan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tw.png",
+    "id": 219,
+    "flag": "tw.png"
+  },
+  {
+    "name": "Tajikistan",
+    "officialName": "Republic of Tajikistan",
+    "iso2": "TJ",
+    "iso3": "TJK",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "population": 10721000,
+    "languages": [
+      "Russian",
+      "Tajik"
+    ],
+    "currency": "Tajikistani somoni",
+    "difficulty": "medium",
+    "fact": "Dushanbe is the capital of Tajikistan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tj.png",
+    "id": 220,
+    "flag": "tj.png"
+  },
+  {
+    "name": "Tanzania",
+    "officialName": "United Republic of Tanzania",
+    "iso2": "TZ",
+    "iso3": "TZA",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": 68153004,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Tanzanian shilling",
+    "difficulty": "easy",
+    "fact": "Dodoma is the capital of Tanzania.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tz.png",
+    "id": 221,
+    "flag": "tz.png"
+  },
+  {
+    "name": "Thailand",
+    "officialName": "Kingdom of Thailand",
+    "iso2": "TH",
+    "iso3": "THA",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": 65706765,
+    "languages": [
+      "Thai"
+    ],
+    "currency": "Thai baht",
+    "difficulty": "easy",
+    "fact": "Bangkok is the capital of Thailand.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/th.png",
+    "id": 222,
+    "flag": "th.png"
+  },
+  {
+    "name": "Timor-Leste",
+    "officialName": "Democratic Republic of Timor-Leste",
+    "iso2": "TL",
+    "iso3": "TLS",
+    "capital": "Dili",
+    "continent": "Asia",
+    "population": 1391221,
+    "languages": [
+      "Portuguese",
+      "Tetum"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Dili is the capital of Timor-Leste.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tl.png",
+    "id": 223,
+    "flag": "tl.png"
+  },
+  {
+    "name": "Togo",
+    "officialName": "Togolese Republic",
+    "iso2": "TG",
+    "iso3": "TGO",
+    "capital": "Lomé",
+    "continent": "Africa",
+    "population": 8095498,
+    "languages": [
+      "French"
+    ],
+    "currency": "West African CFA franc",
+    "difficulty": "medium",
+    "fact": "Lomé is the capital of Togo.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tg.png",
+    "id": 224,
+    "flag": "tg.png"
+  },
+  {
+    "name": "Tokelau",
+    "officialName": "Tokelau",
+    "iso2": "TK",
+    "iso3": "TKL",
+    "capital": "Fakaofo",
+    "continent": "Oceania",
+    "population": 1411,
+    "languages": [
+      "English",
+      "Samoan",
+      "Tokelauan"
+    ],
+    "currency": "New Zealand dollar",
+    "difficulty": "hard",
+    "fact": "Fakaofo is the capital of Tokelau.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tk.png",
+    "id": 225,
+    "flag": "tk.png"
+  },
+  {
+    "name": "Tonga",
+    "officialName": "Kingdom of Tonga",
+    "iso2": "TO",
+    "iso3": "TON",
+    "capital": "Nuku'alofa",
+    "continent": "Oceania",
+    "population": 100179,
+    "languages": [
+      "English",
+      "Tongan"
+    ],
+    "currency": "Tongan paʻanga",
+    "difficulty": "hard",
+    "fact": "Nuku'alofa is the capital of Tonga.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/to.png",
+    "id": 226,
+    "flag": "to.png"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "officialName": "Republic of Trinidad and Tobago",
+    "iso2": "TT",
+    "iso3": "TTO",
+    "capital": "Port of Spain",
+    "continent": "Americas",
+    "population": 1512779,
+    "languages": [
+      "English"
+    ],
+    "currency": "Trinidad and Tobago dollar",
+    "difficulty": "hard",
+    "fact": "Port of Spain is the capital of Trinidad and Tobago.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tt.png",
+    "id": 227,
+    "flag": "tt.png"
+  },
+  {
+    "name": "Tunisia",
+    "officialName": "Republic of Tunisia",
+    "iso2": "TN",
+    "iso3": "TUN",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 11972169,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Tunisian dinar",
+    "difficulty": "medium",
+    "fact": "Tunis is the capital of Tunisia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tn.png",
+    "id": 228,
+    "flag": "tn.png"
+  },
+  {
+    "name": "Turkey",
+    "officialName": "Republic of Türkiye",
+    "iso2": "TR",
+    "iso3": "TUR",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 86092168,
+    "languages": [
+      "Turkish"
+    ],
+    "currency": "Turkish lira",
+    "difficulty": "easy",
+    "fact": "Ankara is the capital of Turkey.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tr.png",
+    "id": 229,
+    "flag": "tr.png"
+  },
+  {
+    "name": "Turkmenistan",
+    "officialName": "Turkmenistan",
+    "iso2": "TM",
+    "iso3": "TKM",
+    "capital": "Ashgabat",
+    "continent": "Asia",
+    "population": 7057841,
+    "languages": [
+      "Russian",
+      "Turkmen"
+    ],
+    "currency": "Turkmenistan manat",
+    "difficulty": "medium",
+    "fact": "Ashgabat is the capital of Turkmenistan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tm.png",
+    "id": 230,
+    "flag": "tm.png"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "officialName": "Turks and Caicos Islands",
+    "iso2": "TC",
+    "iso3": "TCA",
+    "capital": "Cockburn Town",
+    "continent": "Americas",
+    "population": 50828,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Cockburn Town is the capital of Turks and Caicos Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tc.png",
+    "id": 231,
+    "flag": "tc.png"
+  },
+  {
+    "name": "Tuvalu",
+    "officialName": "Tuvalu",
+    "iso2": "TV",
+    "iso3": "TUV",
+    "capital": "Funafuti",
+    "continent": "Oceania",
+    "population": 10643,
+    "languages": [
+      "English",
+      "Tuvaluan"
+    ],
+    "currency": "Australian dollar",
+    "difficulty": "hard",
+    "fact": "Funafuti is the capital of Tuvalu.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/tv.png",
+    "id": 232,
+    "flag": "tv.png"
+  },
+  {
+    "name": "Uganda",
+    "officialName": "Republic of Uganda",
+    "iso2": "UG",
+    "iso3": "UGA",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 45905417,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Ugandan shilling",
+    "difficulty": "medium",
+    "fact": "Kampala is the capital of Uganda.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ug.png",
+    "id": 233,
+    "flag": "ug.png"
+  },
+  {
+    "name": "Ukraine",
+    "officialName": "Ukraine",
+    "iso2": "UA",
+    "iso3": "UKR",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "population": 28700000,
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": "Ukrainian hryvnia",
+    "difficulty": "medium",
+    "fact": "Kyiv is the capital of Ukraine.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ua.png",
+    "id": 234,
+    "flag": "ua.png"
+  },
+  {
+    "name": "United Arab Emirates",
+    "officialName": "United Arab Emirates",
+    "iso2": "AE",
+    "iso3": "ARE",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 11027129,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "United Arab Emirates dirham",
+    "difficulty": "medium",
+    "fact": "Abu Dhabi is the capital of United Arab Emirates.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ae.png",
+    "id": 235,
+    "flag": "ae.png"
+  },
+  {
+    "name": "United Kingdom",
+    "officialName": "United Kingdom of Great Britain and Northern Ireland",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 66912637,
+    "languages": [
+      "English"
+    ],
+    "currency": "British pound",
+    "difficulty": "easy",
+    "fact": "London is the capital of United Kingdom.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/gb.png",
+    "id": 236,
+    "flag": "gb.png"
+  },
+  {
+    "name": "United States",
+    "officialName": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "capital": "Washington, D.C.",
+    "continent": "Americas",
+    "population": 341784857,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "easy",
+    "fact": "Washington, D.C. is the capital of United States.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/us.png",
+    "id": 237,
+    "flag": "us.png"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "officialName": "United States Minor Outlying Islands",
+    "iso2": "UM",
+    "iso3": "UMI",
+    "capital": "Not available",
+    "continent": "Americas",
+    "population": 300,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "United States Minor Outlying Islands is in Americas.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/um.png",
+    "id": 238,
+    "flag": "um.png"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "officialName": "Virgin Islands of the United States",
+    "iso2": "VI",
+    "iso3": "VIR",
+    "capital": "Charlotte Amalie",
+    "continent": "Americas",
+    "population": 87146,
+    "languages": [
+      "English"
+    ],
+    "currency": "United States dollar",
+    "difficulty": "hard",
+    "fact": "Charlotte Amalie is the capital of United States Virgin Islands.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/vi.png",
+    "id": 239,
+    "flag": "vi.png"
+  },
+  {
+    "name": "Uruguay",
+    "officialName": "Oriental Republic of Uruguay",
+    "iso2": "UY",
+    "iso3": "URY",
+    "capital": "Montevideo",
+    "continent": "Americas",
+    "population": 3485931,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Uruguayan peso",
+    "difficulty": "hard",
+    "fact": "Montevideo is the capital of Uruguay.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/uy.png",
+    "id": 240,
+    "flag": "uy.png"
+  },
+  {
+    "name": "Uzbekistan",
+    "officialName": "Republic of Uzbekistan",
+    "iso2": "UZ",
+    "iso3": "UZB",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "population": 39047321,
+    "languages": [
+      "Russian",
+      "Uzbek"
+    ],
+    "currency": "Uzbekistani soʻm",
+    "difficulty": "medium",
+    "fact": "Tashkent is the capital of Uzbekistan.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/uz.png",
+    "id": 241,
+    "flag": "uz.png"
+  },
+  {
+    "name": "Vanuatu",
+    "officialName": "Republic of Vanuatu",
+    "iso2": "VU",
+    "iso3": "VUT",
+    "capital": "Port Vila",
+    "continent": "Oceania",
+    "population": 321409,
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "currency": "Vanuatu vatu",
+    "difficulty": "hard",
+    "fact": "Port Vila is the capital of Vanuatu.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/vu.png",
+    "id": 242,
+    "flag": "vu.png"
+  },
+  {
+    "name": "Vatican City",
+    "officialName": "Vatican City State",
+    "iso2": "VA",
+    "iso3": "VAT",
+    "capital": "Vatican City",
+    "continent": "Europe",
+    "population": 882,
+    "languages": [
+      "Italian",
+      "Latin"
+    ],
+    "currency": "Euro",
+    "difficulty": "hard",
+    "fact": "Vatican City is the capital of Vatican City.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/va.png",
+    "id": 243,
+    "flag": "va.png"
+  },
+  {
+    "name": "Venezuela",
+    "officialName": "Bolivarian Republic of Venezuela",
+    "iso2": "VE",
+    "iso3": "VEN",
+    "capital": "Caracas",
+    "continent": "Americas",
+    "population": 28517000,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Venezuelan bolívar soberano",
+    "difficulty": "medium",
+    "fact": "Caracas is the capital of Venezuela.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ve.png",
+    "id": 244,
+    "flag": "ve.png"
+  },
+  {
+    "name": "Vietnam",
+    "officialName": "Socialist Republic of Vietnam",
+    "iso2": "VN",
+    "iso3": "VNM",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 102300000,
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": "Vietnamese đồng",
+    "difficulty": "easy",
+    "fact": "Hanoi is the capital of Vietnam.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/vn.png",
+    "id": 245,
+    "flag": "vn.png"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "officialName": "Territory of the Wallis and Futuna Islands",
+    "iso2": "WF",
+    "iso3": "WLF",
+    "capital": "Mata-Utu",
+    "continent": "Oceania",
+    "population": 11151,
+    "languages": [
+      "French"
+    ],
+    "currency": "CFP franc",
+    "difficulty": "hard",
+    "fact": "Mata-Utu is the capital of Wallis and Futuna.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/wf.png",
+    "id": 246,
+    "flag": "wf.png"
+  },
+  {
+    "name": "Western Sahara",
+    "officialName": "Sahrawi Arab Democratic Republic",
+    "iso2": "EH",
+    "iso3": "ESH",
+    "capital": "El Aaiún",
+    "continent": "Africa",
+    "population": 510713,
+    "languages": [
+      "Hassaniya Arabic",
+      "Spanish"
+    ],
+    "currency": "Algerian dinar",
+    "difficulty": "hard",
+    "fact": "El Aaiún is the capital of Western Sahara.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/eh.png",
+    "id": 247,
+    "flag": "eh.png"
+  },
+  {
+    "name": "Yemen",
+    "officialName": "Republic of Yemen",
+    "iso2": "YE",
+    "iso3": "YEM",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 32684503,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Yemeni rial",
+    "difficulty": "medium",
+    "fact": "Sana'a is the capital of Yemen.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/ye.png",
+    "id": 248,
+    "flag": "ye.png"
+  },
+  {
+    "name": "Zambia",
+    "officialName": "Republic of Zambia",
+    "iso2": "ZM",
+    "iso3": "ZMB",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": 19693423,
+    "languages": [
+      "English"
+    ],
+    "currency": "Zambian kwacha",
+    "difficulty": "medium",
+    "fact": "Lusaka is the capital of Zambia.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/zm.png",
+    "id": 249,
+    "flag": "zm.png"
+  },
+  {
+    "name": "Zimbabwe",
+    "officialName": "Republic of Zimbabwe",
+    "iso2": "ZW",
+    "iso3": "ZWE",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 17073087,
+    "languages": [
+      "Barwe",
+      "English",
+      "Kalanga",
+      "Khoisan languages",
+      "Ndau",
+      "Northern Ndebele",
+      "Chichewa",
+      "Shona",
+      "Sotho",
+      "Tonga (Zambia)",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zimbabwean Sign Language"
+    ],
+    "currency": "Zimbabwean dollar",
+    "difficulty": "medium",
+    "fact": "Harare is the capital of Zimbabwe.",
+    "flagUrl": "https://flags.restcountries.com/v5/w640/zw.png",
+    "id": 250,
+    "flag": "zw.png"
+  }
+]
