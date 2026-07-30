@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import type { ComponentProps } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text, useTheme } from 'react-native-paper';
 
@@ -6,7 +7,9 @@ import { Screen } from '@/components/Screen';
 import { ACHIEVEMENTS, type AchievementId } from '@/constants/player';
 import { usePlayerStore } from '@/store/playerStore';
 
-const ACHIEVEMENT_ICONS: Record<AchievementId, string> = {
+type IconName = ComponentProps<typeof MaterialCommunityIcons>['name'];
+
+const ACHIEVEMENT_ICONS: Record<AchievementId, IconName> = {
   firstWin: 'flag-checkered',
   hundredCorrect: 'school',
   perfectGame: 'star-circle',
@@ -41,7 +44,7 @@ export function AchievementsScreen() {
             <View style={[styles.iconWrap, { backgroundColor: unlocked ? theme.colors.primary : theme.colors.surfaceVariant }]}>
               <MaterialCommunityIcons
                 color={unlocked ? '#FFFFFF' : theme.colors.onSurfaceVariant}
-                name={ACHIEVEMENT_ICONS[id] as any}
+                name={ACHIEVEMENT_ICONS[id]}
                 size={26}
               />
             </View>

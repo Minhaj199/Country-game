@@ -1,15 +1,18 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import type { ComponentProps } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text, useTheme } from 'react-native-paper';
 
 import { Screen } from '@/components/Screen';
 import { usePlayerStore } from '@/store/playerStore';
 
-function StatRow({ icon, label, value }: { icon: string; label: string; value: string }) {
+type IconName = ComponentProps<typeof MaterialCommunityIcons>['name'];
+
+function StatRow({ icon, label, value }: { icon: IconName; label: string; value: string }) {
   const theme = useTheme();
   return (
     <View style={[styles.row, { backgroundColor: theme.colors.surface }]}>
-      <MaterialCommunityIcons color={theme.colors.primary} name={icon as any} size={22} />
+      <MaterialCommunityIcons color={theme.colors.primary} name={icon} size={22} />
       <Text style={styles.rowLabel} variant="bodyLarge">{label}</Text>
       <Text style={{ fontWeight: '700' }} variant="bodyLarge">{value}</Text>
     </View>

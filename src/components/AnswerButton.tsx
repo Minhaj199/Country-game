@@ -38,7 +38,6 @@ export const AnswerButton = memo(function AnswerButton({
   const wrongBorder = '#EF4444';
   const wrongText = isDark ? '#FCA5A5' : '#DC2626';
 
-  const resultBorderColor = isCorrect ? correctBorder : wrongBorder;
   const backgroundColor = eliminated
     ? theme.colors.surfaceDisabled
     : isCorrect ? correctBg : isSelected ? wrongBg : theme.colors.surface;

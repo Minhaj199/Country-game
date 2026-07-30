@@ -134,7 +134,7 @@ export function useQuizGame(mode: QuizMode, difficulty: DifficultySelection) {
         answerResult: { selectedCountryId, correct, pointsAwarded, fastBonusAwarded, responseTimeMs },
       };
     });
-  }, [rewardCorrectAnswer]);
+  }, []);
 
   const nextQuestion = useCallback(() => {
     setSession((current) => {

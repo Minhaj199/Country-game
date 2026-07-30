@@ -30,7 +30,7 @@ export function QuizScreen({ navigation, route }: Props) {
   const mode = route.params.mode;
   const difficulty = route.params.difficulty;
   const theme = useTheme();
-  const { session, summary, answer, nextQuestion, restart, useHint } = useQuizGame(mode, difficulty);
+  const { session, summary, answer, nextQuestion, restart, useHint: applyHint } = useQuizGame(mode, difficulty);
   const coins = usePlayerStore((s) => s.coins);
   const { play } = useSound();
   const { vibrate } = useVibration();
@@ -45,9 +45,9 @@ export function QuizScreen({ navigation, route }: Props) {
     if (!correct) vibrate([0, 40, 30, 40]);
   }
 
-  function handleHint(hint: Parameters<typeof useHint>[0]) {
+  function handleHint(hint: Parameters<typeof applyHint>[0]) {
     play('click');
-    useHint(hint);
+    applyHint(hint);
   }
 
   if (session.status === 'unavailable') {
@@ -159,7 +159,7 @@ export function QuizScreen({ navigation, route }: Props) {
         <Text style={styles.questionLabel} variant="titleLarge">Which country is this?</Text>
         {session.firstLetterRevealed && (
           <Text style={[styles.hintLabel, { color: theme.colors.primary }]} variant="labelLarge">
-            Starts with "{question.correctCountry.name[0]}"
+            Starts with &quot;{question.correctCountry.name[0]}&quot;
           </Text>
         )}
 
@@ -180,7 +180,7 @@ export function QuizScreen({ navigation, route }: Props) {
               mode="outlined"
               size={20}
               disabled={coins < HINT_COSTS.fiftyFifty}
-              onPress={() => handleHint('fiftyFifty')}
+            onPress={() => handleHint('fiftyFifty')}
               accessibilityLabel={`50-50 hint (${HINT_COSTS.fiftyFifty} coins)`}
             />
             <IconButton
@@ -188,7 +188,7 @@ export function QuizScreen({ navigation, route }: Props) {
               mode="outlined"
               size={20}
               disabled={coins < HINT_COSTS.skip}
-              onPress={() => handleHint('skip')}
+            onPress={() => handleHint('skip')}
               accessibilityLabel={`Skip hint (${HINT_COSTS.skip} coins)`}
             />
             <IconButton
@@ -196,7 +196,7 @@ export function QuizScreen({ navigation, route }: Props) {
               mode="outlined"
               size={20}
               disabled={coins < HINT_COSTS.firstLetter || session.firstLetterRevealed}
-              onPress={() => handleHint('firstLetter')}
+            onPress={() => handleHint('firstLetter')}
               accessibilityLabel={`First letter hint (${HINT_COSTS.firstLetter} coins)`}
             />
             <View style={styles.coinBadge}>

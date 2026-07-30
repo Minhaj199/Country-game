@@ -43,7 +43,7 @@ export const useSettingsStore = create<SettingsState>()(
       name: 'country-quest-settings',
       storage,
       version: 2,
-      migrate: (state: unknown, fromVersion: number) => {
+      migrate: (state: unknown, _fromVersion: number): Partial<SettingsState> => {
         // Merge persisted state with current defaults so new fields get their default values
         const persisted = (state ?? {}) as Partial<SettingsState>;
         return {

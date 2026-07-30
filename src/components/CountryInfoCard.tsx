@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import type { ComponentProps } from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
 import { memo } from 'react';
 import { StyleSheet, View } from 'react-native';
@@ -10,7 +11,9 @@ interface CountryInfoCardProps {
   country: Country;
 }
 
-const DETAIL_ROWS: { icon: string; label: string; key: keyof Country }[] = [
+type IconName = ComponentProps<typeof MaterialCommunityIcons>['name'];
+
+const DETAIL_ROWS: { icon: IconName; label: string; key: keyof Country }[] = [
   { icon: 'city-variant-outline', label: 'Capital', key: 'capital' },
   { icon: 'earth', label: 'Continent', key: 'continent' },
   { icon: 'account-group-outline', label: 'Population', key: 'population' },
@@ -48,7 +51,7 @@ export const CountryInfoCard = memo(function CountryInfoCard({ country }: Countr
         {DETAIL_ROWS.map(({ icon, label, key }) => (
           <View key={label} style={styles.row}>
             <View style={[styles.iconWrap, { backgroundColor: theme.colors.primaryContainer }]}>
-              <MaterialCommunityIcons color={theme.colors.primary} name={icon as any} size={15} />
+              <MaterialCommunityIcons color={theme.colors.primary} name={icon} size={15} />
             </View>
             <Text style={[styles.rowLabel, { color: theme.colors.onSurfaceVariant }]} variant="labelMedium">
               {label}
