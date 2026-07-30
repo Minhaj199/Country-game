@@ -1,4 +1,5 @@
-export type CountryDifficulty = 'easy' | 'medium' | 'hard';
+export type CountryDifficulty = 'easy' | 'medium' | 'hard' | 'expert';
+export type DifficultySelection = CountryDifficulty | 'random';
 
 export interface Country {
   id: number;
@@ -13,5 +14,6 @@ export interface Country {
   currency: string;
   flag: string;
   difficulty: CountryDifficulty;
+  popularityScore: number;
   fact: string;
 }

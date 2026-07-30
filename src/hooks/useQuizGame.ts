@@ -12,10 +12,11 @@ import { countryService } from '@/services/CountryService';
 import { usePlayerStore } from '@/store/playerStore';
 import type { HintType, QuizSession, QuizSummary } from '@/types/quiz';
 import type { QuizMode } from '@/types/navigation';
+import type { DifficultySelection } from '@/types/country';
 import { createQuestion } from '@/utils/quizEngine';
 
-function createSession(mode: QuizMode): QuizSession {
-  const countries = countryService.getAll();
+function createSession(mode: QuizMode, difficulty: DifficultySelection, level: number): QuizSession {
+  const countries = countryService.getAvailableForLevel(level, difficulty);
   const firstQuestion = createQuestion(countries, []);
   const timeLimitSeconds = QUIZ_MODE_RULES[mode].timeLimitSeconds;
 
@@ -56,11 +57,12 @@ function toSummary(session: QuizSession): QuizSummary {
   };
 }
 
-export function useQuizGame(mode: QuizMode) {
-  const [session, setSession] = useState<QuizSession>(() => createSession(mode));
+export function useQuizGame(mode: QuizMode, difficulty: DifficultySelection) {
+  const level = usePlayerStore((s) => s.level);
+  const [session, setSession] = useState<QuizSession>(() => createSession(mode, difficulty, level));
   const answerStartedAt = useRef(Date.now());
   const rules = QUIZ_MODE_RULES[mode];
-  const countries = useMemo(() => countryService.getAll(), []);
+  const countries = useMemo(() => countryService.getAvailableForLevel(level, difficulty), [difficulty, level]);
   const summary = useMemo(() => (session.status === 'complete' ? toSummary(session) : undefined), [session]);
 
   const rewardCorrectAnswer = usePlayerStore((s) => s.rewardCorrectAnswer);
@@ -103,8 +105,8 @@ export function useQuizGame(mode: QuizMode) {
     answerStartedAt.current = Date.now();
     gameRecorded.current = false;
     rewardedKey.current = null;
-    setSession(createSession(mode));
-  }, [mode]);
+    setSession(createSession(mode, difficulty, level));
+  }, [difficulty, level, mode]);
 
   const finish = useCallback(() => {
     setSession((c) => c.status === 'complete' ? c : { ...c, status: 'complete' });

@@ -1,6 +1,8 @@
+import type { DifficultySelection } from '@/types/country';
+
 export type RootStackParamList = {
   Home: undefined;
-  Quiz: { mode: QuizMode };
+  Quiz: { mode: QuizMode; difficulty: DifficultySelection };
   Settings: undefined;
   Stats: undefined;
   Achievements: undefined;

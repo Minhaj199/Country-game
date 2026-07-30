@@ -28,8 +28,9 @@ const countryRepository = new LocalCountryRepository();
 
 export function QuizScreen({ navigation, route }: Props) {
   const mode = route.params.mode;
+  const difficulty = route.params.difficulty;
   const theme = useTheme();
-  const { session, summary, answer, nextQuestion, restart, useHint } = useQuizGame(mode);
+  const { session, summary, answer, nextQuestion, restart, useHint } = useQuizGame(mode, difficulty);
   const coins = usePlayerStore((s) => s.coins);
   const { play } = useSound();
   const { vibrate } = useVibration();
@@ -97,7 +98,7 @@ export function QuizScreen({ navigation, route }: Props) {
   const flagSource = countryRepository.getFlagSource(question.correctCountry);
   const selectedCountryId = session.answerResult?.selectedCountryId;
   const questionLimit = rules.questionLimit;
-  const totalCountries = countryService.getAll().length;
+  const totalCountries = countryService.getAvailableForLevel(usePlayerStore.getState().level, difficulty).length;
   const progress = mode === 'timeAttack'
     ? Math.max(0, (session.timeRemainingSeconds ?? 0) / (rules.timeLimitSeconds ?? 60))
     : Math.min(answeredQuestions / (questionLimit ?? totalCountries), 1);
@@ -137,7 +138,7 @@ export function QuizScreen({ navigation, route }: Props) {
 
       <View style={styles.progressSection}>
         <View style={styles.progressMeta}>
-          <Text style={{ color: theme.colors.onSurfaceVariant }} variant="labelLarge">{GAME_MODES[mode].title}</Text>
+          <Text style={{ color: theme.colors.onSurfaceVariant }} variant="labelLarge">{GAME_MODES[mode].title} · {difficulty}</Text>
           <Text style={{ color: theme.colors.onSurfaceVariant }} variant="labelLarge">{progressLabel}</Text>
         </View>
         <ProgressBar

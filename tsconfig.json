@@ -17,5 +17,8 @@
     "**/*.ts",
     "**/*.tsx"
   ],
+  "exclude": [
+    "scripts"
+  ],
   "extends": "expo/tsconfig.base"
 }

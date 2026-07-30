@@ -1,9 +1,16 @@
 import { Alert, Linking, StyleSheet, View } from 'react-native';
 import { Divider, List, Switch, Text, useTheme } from 'react-native-paper';
+import { useState } from 'react';
 
 import { Screen } from '@/components/Screen';
+import { TimePickerModal } from '@/components/TimePickerModal';
+import { useNotifications } from '@/hooks/useNotifications';
 import { usePlayerStore } from '@/store/playerStore';
 import { useSettingsStore } from '@/store/settingsStore';
+
+function pad(n: number) {
+  return String(n).padStart(2, '0');
+}
 
 export function SettingsScreen() {
   const theme = useTheme();
@@ -14,19 +21,15 @@ export function SettingsScreen() {
   const toggleSound = useSettingsStore((s) => s.toggleSound);
   const toggleVibration = useSettingsStore((s) => s.toggleVibration);
 
-  // Access playerStore reset directly from its store instance
+  const { reminderEnabled, reminderHour, reminderMinute, loading, toggleReminder, updateTime } = useNotifications();
+  const [timePickerVisible, setTimePickerVisible] = useState(false);
+
   const resetPlayer = () => {
     usePlayerStore.setState({
-      coins: 0,
-      xp: 0,
-      level: 1,
+      coins: 0, xp: 0, level: 1,
       statistics: {
-        gamesPlayed: 0,
-        highestScore: 0,
-        correctAnswers: 0,
-        wrongAnswers: 0,
-        totalResponseTimeMs: 0,
-        bestStreak: 0,
+        gamesPlayed: 0, highestScore: 0, correctAnswers: 0,
+        wrongAnswers: 0, totalResponseTimeMs: 0, bestStreak: 0,
         continentCorrectAnswers: {},
       },
       achievements: {},
@@ -83,6 +86,33 @@ export function SettingsScreen() {
       <Divider />
 
       <List.Section>
+        <List.Subheader>Daily Reminder</List.Subheader>
+        <List.Item
+          description="Get a daily nudge to keep your streak alive"
+          left={(props) => <List.Icon {...props} icon="bell-outline" />}
+          right={() => (
+            <Switch
+              value={reminderEnabled}
+              onValueChange={toggleReminder}
+              disabled={loading}
+            />
+          )}
+          title="Daily reminder"
+        />
+        {reminderEnabled && (
+          <List.Item
+            description={`Reminder set for ${pad(reminderHour)}:${pad(reminderMinute)}`}
+            left={(props) => <List.Icon {...props} icon="clock-outline" />}
+            right={(props) => <List.Icon {...props} icon="chevron-right" />}
+            title="Reminder time"
+            onPress={() => setTimePickerVisible(true)}
+          />
+        )}
+      </List.Section>
+
+      <Divider />
+
+      <List.Section>
         <List.Subheader>Account</List.Subheader>
         <List.Item
           description="Erase all coins, XP, stats, and achievements"
@@ -101,7 +131,7 @@ export function SettingsScreen() {
           description="Help us grow with a 5-star review"
           left={(props) => <List.Icon {...props} icon="star-outline" />}
           title="Rate the app"
-          onPress={() => Linking.openURL('market://details?id=com.countryquest')}
+          onPress={() => Linking.openURL('market://details?id=com.countryquest.game')}
         />
         <List.Item
           description="https://countryquest.app/privacy"
@@ -115,6 +145,17 @@ export function SettingsScreen() {
           title="About"
         />
       </List.Section>
+
+      <TimePickerModal
+        visible={timePickerVisible}
+        hour={reminderHour}
+        minute={reminderMinute}
+        onConfirm={(h, m) => {
+          setTimePickerVisible(false);
+          updateTime(h, m);
+        }}
+        onDismiss={() => setTimePickerVisible(false)}
+      />
     </Screen>
   );
 }

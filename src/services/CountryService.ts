@@ -1,7 +1,6 @@
 import { LocalCountryRepository } from '@/repository/LocalCountryRepository';
-import type { Country } from '@/types/country';
-
-const COUNTRIES_PER_LEVEL = 20;
+import { countriesForDifficulty, difficultyForLevel } from '@/constants/difficulty';
+import type { Country, DifficultySelection } from '@/types/country';
 
 export class CountryService {
   constructor(private readonly repository = new LocalCountryRepository()) {}
@@ -11,8 +10,13 @@ export class CountryService {
   }
 
   getUnlockedForLevel(level: number): Country[] {
-    const unlockedCount = Math.max(1, level) * COUNTRIES_PER_LEVEL;
-    return this.repository.getAll().slice(0, unlockedCount);
+    const highestDifficulty = difficultyForLevel(level);
+    return countriesForDifficulty(this.repository.getAll(), highestDifficulty);
+  }
+
+  getAvailableForLevel(level: number, selection: DifficultySelection): Country[] {
+    const unlockedCountries = this.getUnlockedForLevel(level);
+    return countriesForDifficulty(unlockedCountries, selection);
   }
 
   hasLocalDataset(): boolean {

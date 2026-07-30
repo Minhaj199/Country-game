@@ -13,10 +13,26 @@
       "package": "com.countryquest.game",
       "adaptiveIcon": {
         "backgroundColor": "#F7F9FC"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "plugins": [
-      "expo-audio"
-    ]
+      "expo-audio",
+      [
+        "expo-notifications",
+        {
+          "androidMode": "default",
+          "androidCollapsedTitle": "Country Quest"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fdc3f37c-238d-41a2-a43a-eefc30728952"
+      }
+    }
   }
 }

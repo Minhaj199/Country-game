@@ -2,8 +2,10 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { Pressable, StyleSheet, View } from 'react-native';
+import { useState } from 'react';
 import { Text, useTheme } from 'react-native-paper';
 
+import { ClassicDifficultySheet } from '@/components/ClassicDifficultySheet';
 import { ModeCard } from '@/components/ModeCard';
 import { Screen } from '@/components/Screen';
 import { GAME_MODES } from '@/constants/game';
@@ -17,6 +19,7 @@ export function HomeScreen({ navigation }: Props) {
   const coins = usePlayerStore((s) => s.coins);
   const xp = usePlayerStore((s) => s.xp);
   const level = usePlayerStore((s) => s.level);
+  const [sheetVisible, setSheetVisible] = useState(false);
 
   return (
     <Screen>
@@ -69,9 +72,19 @@ export function HomeScreen({ navigation }: Props) {
           key={mode}
           subtitle={config.subtitle}
           title={config.title}
-          onPress={() => navigation.navigate('Quiz', { mode: mode as keyof typeof GAME_MODES })}
+          onPress={() =>
+            mode === 'classic'
+              ? setSheetVisible(true)
+              : navigation.navigate('Quiz', { mode: mode as keyof typeof GAME_MODES, difficulty: 'easy' })
+          }
         />
       ))}
+      <ClassicDifficultySheet
+        visible={sheetVisible}
+        level={level}
+        onDismiss={() => setSheetVisible(false)}
+        onStart={(d) => navigation.navigate('Quiz', { mode: 'classic', difficulty: d })}
+      />
     </Screen>
   );
 }

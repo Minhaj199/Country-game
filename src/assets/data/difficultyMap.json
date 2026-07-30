@@ -1,0 +1,12 @@
+{
+  "US": { "difficulty": "easy", "popularityScore": 99 },
+  "GB": { "difficulty": "easy", "popularityScore": 98 },
+  "FR": { "difficulty": "easy", "popularityScore": 97 },
+  "DE": { "difficulty": "easy", "popularityScore": 96 },
+  "JP": { "difficulty": "easy", "popularityScore": 95 },
+  "CN": { "difficulty": "easy", "popularityScore": 94 },
+  "IN": { "difficulty": "easy", "popularityScore": 93 },
+  "BR": { "difficulty": "easy", "popularityScore": 92 },
+  "AU": { "difficulty": "easy", "popularityScore": 91 },
+  "CA": { "difficulty": "easy", "popularityScore": 90 }
+}
